@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/components/RentPassportTextField/RentPassportTextField.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">src/components/RentPassportTextField</a> RentPassportTextField.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">63.64% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>14/22</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">46.43% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>13/28</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">30% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">61.9% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>13/21</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from "react";
+import styled from "styled-components/native";
+import {colors} from "../../constants/theme";
+import {bool} from "prop-types";
+&nbsp;
+export const FlexContainer = styled.View`
+  flex: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: ${<span class="fstat-no" title="function not covered" >pr</span>ops =&gt; <span class="cstat-no" title="statement not covered" >props.width}</span>%;
+  padding-vertical: 10px;
+`;
+&nbsp;
+export const PageHeader = styled.Text`
+  font-size: ${<span class="fstat-no" title="function not covered" >({</span>fontSize}) =&gt; <span class="cstat-no" title="statement not covered" >fontSize || "18"}</span>px;
+  display: flex;
+  font-style: ${<span class="fstat-no" title="function not covered" >({</span>fontStyle}) =&gt; <span class="cstat-no" title="statement not covered" >fontStyle || "normal"}</span>;
+  width: ${<span class="fstat-no" title="function not covered" >({</span>align}) =&gt; (<span class="cstat-no" title="statement not covered" >align === "right" ? "auto" : "100%")</span>};
+  color: ${<span class="fstat-no" title="function not covered" >({</span>error}) =&gt;
+<span class="cstat-no" title="statement not covered" >    error === "true" ? colors.alertRed : colors.canopySteel}</span>;
+  align-self: flex-end;
+  align-items: flex-end;
+  justify-content: ${<span class="fstat-no" title="function not covered" >({</span>align}) =&gt;
+<span class="cstat-no" title="statement not covered" >    align === "right" ? "space-between" : "flex-start"}</span>;
+`;
+&nbsp;
+export const TextFieldHeading = styled.Text`
+  font-size: 14px;
+  font-weight: bold;
+  color: ${<span class="fstat-no" title="function not covered" >({</span>error}) =&gt;
+<span class="cstat-no" title="statement not covered" >    error === "true" ? colors.alertRed : colors.canopySteel}</span>;
+  width: 100%;
+  display: flex;
+`;
+&nbsp;
+class RentPassportTextField extends React.Component {
+  joinN = value =&gt; {
+    if (Array.isArray(value) &amp;&amp; value) {
+      return value.filter(n =&gt; n).join("\n");
+    } else if (typeof value === "string" &amp;&amp; value.trim().length) {
+      return value;
+    } else <span class="missing-if-branch" title="if path not taken" >I</span>if (typeof value === "number" || typeof value === "object") {
+<span class="cstat-no" title="statement not covered" >      return value;</span>
+    }
+&nbsp;
+    return "";
+  };
+&nbsp;
+  render() {
+    const {title, value, width, fontStyle, fontSize, align, error} = this.props;
+    const errorProp = error ? error.toString() : <span class="branch-1 cbranch-no" title="branch not covered" >undefined;</span>
+&nbsp;
+    return (
+      &lt;FlexContainer width={width} align={align}&gt;
+        {title &amp;&amp; (
+<span class="branch-1 cbranch-no" title="branch not covered" >          &lt;TextFieldHeading error={errorProp} align={align}&gt;</span>
+            {title}
+          &lt;/TextFieldHeading&gt;
+        )}
+        &lt;PageHeader
+          fontStyle={fontStyle}
+          fontSize={fontSize}
+          align={align}
+          error={errorProp}
+          textAlignVertical="bottom"
+        &gt;
+          {this.joinN(value)}
+        &lt;/PageHeader&gt;
+      &lt;/FlexContainer&gt;
+    );
+  }
+}
+&nbsp;
+RentPassportTextField.propTypes = {
+  error: bool,
+};
+&nbsp;
+export default RentPassportTextField;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Mar 28 2019 14:23:50 GMT+0700 (Indochina Time)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

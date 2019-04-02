@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/constants/credit-score.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">src/constants</a> credit-score.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">73.81% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>31/42</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">42.86% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>6/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">72.73% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>8/11</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">72.97% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>27/37</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">61x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">24x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// THIS CODE IS COPIED FROM OLD "canopy-legacy" REPO
+// Definition of common errors.
+const NO_TRACE = "NO_TRACE";
+const NO_TRACE_VALUE = -998;
+const UNDEFINED_SCORE = "UNDEFINED_SCORE";
+export const SCORE_MAX_VALUE = 999;
+// Definition for the scores.
+// Based on https://www.experian.co.uk/consumer/experian-credit-score.html
+export const SCORES = {
+  VERY_POOR: "VERY_POOR",
+  POOR: "POOR",
+  FAIR: "FAIR",
+  GOOD: "GOOD",
+  EXCELLENT: "EXCELLENT",
+};
+&nbsp;
+// Definition of the scores level within their ranges.
+export const SCORE_RANGES = {
+  [SCORES.VERY_POOR]: {from: 0, to: 560},
+  [SCORES.POOR]: {from: 561, to: 720},
+  [SCORES.FAIR]: {from: 721, to: 880},
+  [SCORES.GOOD]: {from: 881, to: 960},
+  [SCORES.EXCELLENT]: {from: 961, to: SCORE_MAX_VALUE},
+};
+&nbsp;
+// Values that are consider trusty.
+const TRUSTY_SCORE_RANGE = [
+  SCORES.POOR,
+  SCORES.FAIR,
+  SCORES.GOOD,
+  SCORES.EXCELLENT,
+];
+&nbsp;
+/**
+ * Get the score range based on the score literal.
+ * @param  {String} score
+ * @return {Object}
+ */
+export const getScoreRanges = score =&gt; SCORE_RANGES[score];
+&nbsp;
+/**
+ * A score shouldn't go beyond 999, which is the maximum at 'excellent' score level.
+ * If the score goes beyond 999, just return 999.
+ * @param  {Number} score
+ * @return {Number}
+ */
+const normalizeScore = score =&gt;
+  Math.min(score, getScoreRanges(SCORES.EXCELLENT).to);
+&nbsp;
+/**
+ * Helper function to check if a score appears under a certain category.
+ * @param  {Number} score
+ * @param  {Object} range
+ * @return {Boolean}
+ */
+const scoreIsInRange = (score, range) =&gt;
+  score &gt;= range.from &amp;&amp; score &lt;= range.to;
+&nbsp;
+/**
+ * Check if the score is valued as 'no trace'.
+ * @param  {Number}  score
+ * @return {Boolean}
+ */
+const isNoTrace = score =&gt; score === NO_TRACE_VALUE;
+&nbsp;
+/**
+ * Check if the score is cataloged as 'very poor'.
+ * @param  {Number}  score
+ * @return {Boolean}
+ */
+const isVeryPoor = score =&gt;
+  scoreIsInRange(score, getScoreRanges(SCORES.VERY_POOR));
+&nbsp;
+/**
+ * Check if the score is cataloged as 'poor'.
+ * @param  {Number}  score
+ * @return {Boolean}
+ */
+const isPoor = score =&gt; scoreIsInRange(score, getScoreRanges(SCORES.POOR));
+&nbsp;
+/**
+ * Check if the score is cataloged as 'fair'.
+ * @param  {Number}  score
+ * @return {Boolean}
+ */
+const isFair = score =&gt; scoreIsInRange(score, getScoreRanges(SCORES.FAIR));
+&nbsp;
+/**
+ * Check if the score is cataloged as 'good'.
+ * @param  {Number}  score
+ * @return {Boolean}
+ */
+const isGood = <span class="fstat-no" title="function not covered" >sc</span>ore =&gt; <span class="cstat-no" title="statement not covered" >scoreIsInRange(score, getScoreRanges(SCORES.GOOD));</span>
+&nbsp;
+/**
+ * Check if the score is cataloged as 'excellent'
+ * @param  {Number}  score
+ * @return {Boolean}
+ */
+const isExcellent = <span class="fstat-no" title="function not covered" >sc</span>ore =&gt;
+<span class="cstat-no" title="statement not covered" >  scoreIsInRange(score, getScoreRanges(SCORES.EXCELLENT));</span>
+&nbsp;
+/**
+ * Get the score level (like 'VERY_POOR', 'POOR', etc.) for the score.
+ * It will also check for possible errors like 'NO_TRACE'.
+ *
+ * @param  {Number} score
+ * @return {String}
+ */
+export const getScoreLevel = score =&gt; {
+  // Normalize the score, making it go as much as 999.
+  const normalizedScore = normalizeScore(score);
+&nbsp;
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (isNoTrace(normalizeScore)) {
+<span class="cstat-no" title="statement not covered" >    return NO_TRACE;</span>
+  }
+&nbsp;
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (isVeryPoor(normalizedScore)) {
+<span class="cstat-no" title="statement not covered" >    return SCORES.VERY_POOR;</span>
+  }
+&nbsp;
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (isPoor(normalizedScore)) {
+<span class="cstat-no" title="statement not covered" >    return SCORES.POOR;</span>
+  }
+&nbsp;
+  <span class="missing-if-branch" title="else path not taken" >E</span>if (isFair(normalizedScore)) {
+    return SCORES.FAIR;
+  }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  if (isGood(normalizedScore)) {</span>
+<span class="cstat-no" title="statement not covered" >    return SCORES.GOOD;</span>
+  }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  if (isExcellent(normalizedScore)) {</span>
+<span class="cstat-no" title="statement not covered" >    return SCORES.EXCELLENT;</span>
+  }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return UNDEFINED_SCORE;</span>
+};
+&nbsp;
+/**
+ * Check if the score is consider as trusty.
+ * @param  {Number}  score
+ * @return {Boolean}
+ */
+export const isTrustyScore = <span class="fstat-no" title="function not covered" >sc</span>ore =&gt;
+<span class="cstat-no" title="statement not covered" >  TRUSTY_SCORE_RANGE.includes(getScoreLevel(score));</span>
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Mar 28 2019 14:23:50 GMT+0700 (Indochina Time)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon with content component IconWithContent snapshot test on - web 1`] = `
+<Styled(View)
+  disabled={false}
+  width={100}
+>
+  <Styled(View)
+    size={32}
+  >
+    <Icon
+      allowFontScaling={false}
+      name={null}
+      size={32}
+    />
+  </Styled(View)>
+  <Text
+    globaltheme="light"
+    theme={Object {}}
+  >
+    Landlords name.
+  </Text>
+</Styled(View)>
+`;

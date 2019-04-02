@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionWithCount matches snapshot on ios 1`] = `
+<Accordion
+  title={[Function]}
+>
+  <Component>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Lorem ipsum
+    </Text>
+  </Component>
+</Accordion>
+`;

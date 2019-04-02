@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/components/FileUpload/WebFileUpload.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">src/components/FileUpload</a> WebFileUpload.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">75.86% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>22/29</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">50% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>3/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">50% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>6/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">75.86% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>22/29</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, {Component} from "react";
+import Dropzone from "react-dropzone";
+import styled from "styled-components";
+import {reduxForm, Field} from "redux-form";
+import {func, object, string} from "prop-types";
+import Button from "../../components/Button";
+import Icon from "../../components/Icon";
+import {colors} from "../../constants/theme";
+&nbsp;
+export const StyledDropzone = styled(Dropzone)`
+  border: 0;
+  margin: 0;
+  margin-top: ${props =&gt; (props.accepted ? "0px" : <span class="branch-1 cbranch-no" title="branch not covered" >"60px")</span>};
+`;
+&nbsp;
+export const StyledSection = styled.div`
+  width: 100%;
+  margin: 0 5px;
+`;
+&nbsp;
+const FileList = styled.ul`
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+`;
+&nbsp;
+export const UploadedFile = styled.li`
+  display: flex;
+  border-radius: 6px;
+  background-color: ${<span class="fstat-no" title="function not covered" >({</span>theme}) =&gt; <span class="cstat-no" title="statement not covered" >theme.colors.veryLightSteel}</span>;
+  padding: 7px 10px;
+  align-items: center;
+  margin-top: 41px;
+  margin-bottom: 21px;
+`;
+&nbsp;
+const FileName = styled.span`
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: ${<span class="fstat-no" title="function not covered" >({</span>theme}) =&gt; <span class="cstat-no" title="statement not covered" >theme.colors.canopySteel}</span>;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+`;
+&nbsp;
+export const StyledIcon = styled(Icon)`
+  margin-left: auto;
+  color: ${<span class="fstat-no" title="function not covered" >({</span>theme, globaltheme}) =&gt; <span class="cstat-no" title="statement not covered" >theme[globaltheme].baseColor}</span>;
+`;
+&nbsp;
+const Error = styled.p`
+  font-size: 16px;
+  margin: -10px 0 15px;
+  color: ${<span class="fstat-no" title="function not covered" >({</span>theme}) =&gt; <span class="cstat-no" title="statement not covered" >theme.colors.alertRed}</span>;
+  line-height: 1.5;
+`;
+&nbsp;
+export const StyledButton = styled(Button).attrs({
+  style: [{marginBottom: 21, marginLeft: 0, marginRight: 0, zIndex: -1}],
+})``;
+&nbsp;
+export class FileUpload extends Component {
+  constructor() {
+    super();
+    this.state = {
+      accepted: [],
+    };
+  }
+&nbsp;
+  removeUploadedFile = () =&gt; {
+    this.props.reset();
+    this.setState({
+      accepted: [],
+    });
+  };
+&nbsp;
+  onDrop = <span class="fstat-no" title="function not covered" >(f</span>ilesToUpload, onChange) =&gt; {
+<span class="cstat-no" title="statement not covered" >    this.setState({accepted: filesToUpload});</span>
+<span class="cstat-no" title="statement not covered" >    onChange(filesToUpload);</span>
+  };
+&nbsp;
+  renderDropzone = field =&gt; {
+    const {btnText, btnType} = this.props;
+    const {accepted} = this.state;
+    const {onChange} = field.input;
+&nbsp;
+    return (
+      &lt;StyledDropzone
+        accepted={accepted.length}
+        accept="image/jpeg, image/png, text/csv"
+        name={field.name}
+        onDrop={<span class="fstat-no" title="function not covered" >fi</span>lesToUpload =&gt; <span class="cstat-no" title="statement not covered" >this.onDrop(filesToUpload, onChange)}</span>
+      &gt;
+        &lt;StyledButton type={btnType} middle={btnText} /&gt;
+        {field.meta.touched &amp;&amp;
+<span class="branch-1 cbranch-no" title="branch not covered" >          field.meta.error </span>&amp;&amp; <span class="branch-2 cbranch-no" title="branch not covered" >&lt;Error&gt;{field.meta.error}&lt;/Error&gt;}</span>
+      &lt;/StyledDropzone&gt;
+    );
+  };
+&nbsp;
+  render() {
+    const {onSubmit, fieldName = "fileUpload", theme, globaltheme} = this.props;
+    const {accepted} = this.state;
+&nbsp;
+    return (
+      &lt;StyledSection&gt;
+        &lt;aside&gt;
+          &lt;FileList&gt;
+            {accepted.map(f =&gt; (
+              &lt;UploadedFile key={f.name}&gt;
+                &lt;Icon name="legal" size={32} color={colors.canopySteel} /&gt;
+                &lt;FileName&gt;{f.name}&lt;/FileName&gt;
+                &lt;StyledIcon
+                  name="close"
+                  size={32}
+                  theme={theme}
+                  globaltheme={globaltheme}
+                  onPress={this.removeUploadedFile}
+                /&gt;
+              &lt;/UploadedFile&gt;
+            ))}
+          &lt;/FileList&gt;
+        &lt;/aside&gt;
+&nbsp;
+        &lt;form onSubmit={onSubmit}&gt;
+          &lt;Field name={fieldName} component={this.renderDropzone} /&gt;
+        &lt;/form&gt;
+      &lt;/StyledSection&gt;
+    );
+  }
+}
+&nbsp;
+FileUpload.propTypes = {
+  globaltheme: string.isRequired,
+  theme: object.isRequired,
+  fieldName: string,
+  btnText: string,
+  btnType: string,
+  onSubmit: func.isRequired,
+};
+&nbsp;
+export default reduxForm({
+  form: "DynamicForm",
+  enableReinitialize: true,
+  keepDirtyOnReinitialize: true,
+  destroyOnUnmount: false,
+})(FileUpload);
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Mar 28 2019 14:23:50 GMT+0700 (Indochina Time)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

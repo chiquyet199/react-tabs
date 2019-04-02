@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs - page tests matches snapshot 1`] = `
+<TabView
+  canJumpToTab={[Function]}
+  getTestID={[Function]}
+  initialLayout={
+    Object {
+      "height": 47,
+      "width": 750,
+    }
+  }
+  navigationState={
+    Object {
+      "index": 0,
+      "routes": Array [
+        Object {
+          "key": "first",
+          "title": "My Home",
+        },
+        Object {
+          "key": "second",
+          "title": "Rent Passport shares",
+        },
+      ],
+    }
+  }
+  onIndexChange={[Function]}
+  renderPager={[Function]}
+  renderScene={[Function]}
+  renderTabBar={[Function]}
+  tabBarPosition="top"
+  useNativeDriver={false}
+/>
+`;

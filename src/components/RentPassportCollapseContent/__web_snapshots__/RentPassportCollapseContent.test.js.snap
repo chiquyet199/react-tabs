@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RentPassportComplete /> RentPassportCollapseContent component renders properly - web 1`] = `
+<Styled(View)>
+  <Connect(WithTheme(NotificationPanel))
+    bottommargin={5}
+    content={
+      <React.Fragment>
+        <Icon
+          allowFontScaling={false}
+          color="#f1bf51"
+          name="close-circle"
+          size={26}
+        />
+        <Styled(View)>
+          <Styled(Text)
+            color="#f1bf51"
+          >
+            Annual income not verified
+          </Styled(Text)>
+          <Styled(Text)
+            color="#5ab88e"
+            onPress={[Function]}
+          >
+            Verify income
+          </Styled(Text)>
+        </Styled(View)>
+      </React.Fragment>
+    }
+    key="grossAnnualIncome.unverified"
+    topmargin={5}
+    type="rent_passport_error"
+  />
+  <Styled(Styled(View))
+    key="0"
+    noborder="true"
+  >
+    <RentPassportTextField
+      key="totalAnnualIncome"
+      title="Total annual income"
+      value=" 100,000.00"
+      width={50}
+    />
+    <RentPassportTextField
+      error={false}
+      key="activeCCJs"
+      title="Active CCJs"
+      value="None"
+      width={50}
+    />
+    <RentPassportTextField
+      key="previousCCJs"
+      title="Previous CCJs"
+      value="None"
+      width={50}
+    />
+    <RentPassportTextField
+      error={false}
+      key="activeInsolvencies"
+      title="Active Insolvencies"
+      value="None"
+      width={50}
+    />
+    <RentPassportTextField
+      key="previousInsolvencies"
+      title="Previous Insolvencies"
+      value="None"
+      width={50}
+    />
+    <RentPassportTextField
+      error={false}
+      key="bankrupt"
+      title="Bankrupt"
+      value="No"
+      width={50}
+    />
+  </Styled(Styled(View))>
+</Styled(View)>
+`;

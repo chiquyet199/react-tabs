@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormPage tests renders to correct snapshot 1`] = `
+<Styled(View)>
+  <Styled(Component)>
+    <Connect(ResponsiveWrapper)
+      layout="hq"
+    >
+      <Connect(WithTheme(Styled(Text)))
+        key="page_header_about_you"
+        left="true"
+      >
+        About you
+      </Connect(WithTheme(Styled(Text)))>
+      <Connect(WithTheme(Styled(Text)))
+        key="page_info_test_info"
+        left="true"
+      >
+        Test info
+      </Connect(WithTheme(Styled(Text)))>
+    </Connect(ResponsiveWrapper)>
+    <Connect(ResponsiveWrapper)
+      id="dynamicFormWrapper"
+    >
+      <Connect(Connect(WithTheme(ReduxForm)))
+        initialValues={
+          Object {
+            "firstName": "Benedict",
+            "lastName": "Cumberland",
+          }
+        }
+        onSubmit={[Function]}
+        schema={
+          Object {
+            "header": "About you",
+            "info": "Test info",
+            "initialValues": Object {
+              "firstName": "Benedict",
+              "lastName": "Cumberland",
+            },
+            "layout": "hq",
+            "next": "password",
+            "progress": 33,
+            "properties": Object {
+              "email": Object {
+                "title": "address",
+                "type": "string",
+              },
+              "firstName": Object {
+                "title": "First name",
+                "type": "string",
+              },
+              "info": Object {
+                "align": "left",
+                "title": "A title",
+                "type": "string",
+                "uiComponent": "text",
+              },
+              "lastName": Object {
+                "title": "Last name",
+                "type": "string",
+              },
+              "receive_emails": Object {
+                "title": "emails",
+                "type": "boolean",
+                "uiComponent": "switch",
+              },
+            },
+            "required": Array [
+              "firstName",
+              "lastName",
+              "email",
+            ],
+            "title": "about",
+            "type": "object",
+          }
+        }
+      />
+    </Connect(ResponsiveWrapper)>
+  </Styled(Component)>
+  <Styled(Styled(View))>
+    <Connect(WithTheme(Button))
+      middle="Next"
+      right="arrow-right"
+      type="primary"
+    />
+  </Styled(Styled(View))>
+  <Styled(Styled(View)) />
+</Styled(View)>
+`;

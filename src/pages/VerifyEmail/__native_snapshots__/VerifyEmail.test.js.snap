@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VerifyEmail matches snapshot on ios 1`] = `
+<Styled(Component)>
+  <Styled(Image)
+    source="verify-email.png"
+  />
+  <Connect(WithTheme(Styled(Text)))>
+    Verify your email address
+  </Connect(WithTheme(Styled(Text)))>
+  <Connect(WithTheme(Styled(Connect(WithTheme(Styled(Text))))))>
+    max@gmail.com
+  </Connect(WithTheme(Styled(Connect(WithTheme(Styled(Text))))))>
+  <Connect(WithTheme(Styled(Text)))>
+    We need to know you are you before creating a RentPassport. Please click the link in the email we sent you.
+  </Connect(WithTheme(Styled(Text)))>
+  <Connect(WithTheme(Styled(Text)))>
+    Not received an email?
+  </Connect(WithTheme(Styled(Text)))>
+  <Connect(WithTheme(Button))
+    middle="Resend verification email"
+    onClick={[Function]}
+    type="secondary"
+  />
+  <Connect(WithTheme(Button))
+    middle="Home"
+    onClick={[Function]}
+    type="primary"
+  />
+</Styled(Component)>
+`;

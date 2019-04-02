@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Options Alert component Options Alert snapshot test 1`] = `
+<UnimplementedView
+  onRequestClose={[Function]}
+  transparent={true}
+>
+  <Styled(View)
+    onPress={[Function]}
+  >
+    <Connect(WithTheme(Styled(View)))>
+      <Styled(Button)
+        key="Passport"
+        middle="Passport"
+        onClick={[MockFunction]}
+        type="confirmation_primary"
+      />
+      <Styled(Button)
+        key="Cancel"
+        middle="Cancel"
+        onClick={[MockFunction]}
+        type="confirmation_cancel"
+      />
+    </Connect(WithTheme(Styled(View)))>
+  </Styled(View)>
+</UnimplementedView>
+`;

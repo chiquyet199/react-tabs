@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionWithCount matches snapshot on web 1`] = `
+<Accordion
+  title={[Function]}
+>
+  <View>
+    <Text>
+      Lorem ipsum
+    </Text>
+  </View>
+</Accordion>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RentPassportTextField component renders properly - web 1`] = `
+<Styled(View)
+  align="right"
+  width={50}
+>
+  <Styled(Text)
+    align="right"
+    error="true"
+    fontSize={18}
+    fontStyle="none"
+    textAlignVertical="bottom"
+  >
+    Employed
+Employed
+Employed
+  </Styled(Text)>
+</Styled(View)>
+`;

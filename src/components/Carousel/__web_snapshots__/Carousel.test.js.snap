@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel - page tests matches snapshot 1`] = `
+<Styled(View)>
+  <Carousel
+    afterSlide={[Function]}
+    autoGenerateStyleTag={true}
+    autoPlayInterval={6000}
+    autoplay={true}
+    autoplayInterval={3000}
+    beforeSlide={[Function]}
+    cellAlign="left"
+    cellSpacing={0}
+    className="light-dots"
+    dragging={false}
+    easing="easeCircleOut"
+    edgeEasing="easeElasticOut"
+    frameOverflow="hidden"
+    framePadding="0px"
+    heightMode="max"
+    initialSlideHeight={180}
+    initialSlideWidth={340}
+    onResize={[Function]}
+    pauseOnHover={false}
+    renderBottomCenterControls={[Function]}
+    renderCenterLeftControls={[Function]}
+    renderCenterRightControls={[Function]}
+    slideIndex={0}
+    slideWidth={1}
+    slidesToScroll={1}
+    slidesToShow={1}
+    speed={500}
+    style={Object {}}
+    swiping={true}
+    transitionMode="scroll"
+    vertical={false}
+    width="100%"
+    withoutControls={false}
+    wrapAround={true}
+  >
+    <img
+      alt="title1"
+      src="test.jpg"
+    />
+    <Styled(View)>
+      <Connect(WithTheme(Styled(Text)))>
+        title1
+      </Connect(WithTheme(Styled(Text)))>
+      <Connect(WithTheme(Styled(Text)))>
+        text text
+      </Connect(WithTheme(Styled(Text)))>
+      <View>
+        <Text>
+          Lorem
+        </Text>
+        <Text>
+          ipsum
+        </Text>
+      </View>
+    </Styled(View)>
+    <img
+      alt="title2"
+      src="test2.jpg"
+    />
+    <Styled(View)>
+      <Connect(WithTheme(Styled(Text)))>
+        title2
+      </Connect(WithTheme(Styled(Text)))>
+      <Connect(WithTheme(Styled(Text)))>
+        text text
+      </Connect(WithTheme(Styled(Text)))>
+      <Text>
+        Lorem ipsum
+      </Text>
+    </Styled(View)>
+  </Carousel>
+</Styled(View)>
+`;

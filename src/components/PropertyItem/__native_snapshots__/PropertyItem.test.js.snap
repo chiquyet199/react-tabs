@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Property item tests PropertyItem snapshot test on - ios 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <Connect(WithTheme(Styled(Component)))>
+    <Styled(Image)
+      source={
+        Object {
+          "uri": "http://www.findyourcanopy.com/img124.jpeg",
+        }
+      }
+    />
+    <Styled(Component)>
+      <Component>
+        <Connect(WithTheme(Styled(Text)))>
+          29 Acacia Road
+        </Connect(WithTheme(Styled(Text)))>
+      </Component>
+      <Component>
+        <Connect(WithTheme(Styled(Text)))>
+          Beanotown
+        </Connect(WithTheme(Styled(Text)))>
+      </Component>
+      <Component>
+        <Connect(WithTheme(Styled(Text)))>
+          BE1 1BE
+        </Connect(WithTheme(Styled(Text)))>
+      </Component>
+    </Styled(Component)>
+    <Connect(WithTheme(Styled(Text)))>
+      £1234.99w
+    </Connect(WithTheme(Styled(Text)))>
+  </Connect(WithTheme(Styled(Component)))>
+</TouchableOpacity>
+`;

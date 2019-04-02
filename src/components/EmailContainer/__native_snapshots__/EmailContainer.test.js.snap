@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Email Container snapshot test 1`] = `
+<Styled(Component)>
+  <Styled(Component)
+    onClick={[Function]}
+  >
+    <Styled(Icon)
+      color="red"
+      name="rentpassport-thick"
+      size={32}
+    />
+    <Styled(Component)>
+      <Styled(Text)>
+        test
+      </Styled(Text)>
+      <Styled(Text)>
+        test@email.com
+      </Styled(Text)>
+    </Styled(Component)>
+  </Styled(Component)>
+  <Styled(Component)
+    globaltheme="light"
+    theme={
+      Object {
+        "light": Object {
+          "textColor": "red",
+        },
+      }
+    }
+  />
+</Styled(Component)>
+`;

@@ -1,0 +1,236 @@
+export const initialState = {
+  locale: {
+    currentLocale: "en-US",
+    translations: {
+      common: {
+        postcode_lookup: {
+          postcode: "Postcode",
+          find_address: "Find address",
+          address_not_listed: "Address not listed",
+        },
+      },
+      home__welcome: "Welcome to RNW starter app",
+      home__loggedin: "You are now logged in",
+      login__email__label: "Email address",
+      login__password__label: "Password",
+      login__email__placeholder: "example@example.com",
+      login__password__placeholder: "******",
+      login__continue__with__facebook: "Continue with Facebook",
+      login: "Sign in",
+      create__account: "Create account",
+      login__forgot__password: "Forgot password",
+      logout: "Logout",
+      back: "Back",
+      submit: "Submit",
+      rent_passport: "Rent Passport",
+      deposit_free: "Deposit Free",
+      home_management: "Home Management",
+      authorize: "Authorize",
+      terms_header: "Canopy terms & conditions",
+      terms:
+        "1. INTRODUCTION\n\nBy signing up for an account with Canopy, you are agreeing to be bound by the following terms and conditions (“Terms of Service”). These Terms of Service are to be read in conjunction with:\n\nour Privacy Policy, which sets out the terms on which we process any personal data we collect from you, or that you or others provide to us; and\n\nour Cookies Policy, which sets out information about the cookies we use.\n\nThese Terms of Service are important. Please read them carefully as they contain details of our statutory and regulatory responsibilities to you, and your contractual obligations to us. They also set out the basis on which we provide, and you are permitted to use, the various services made available on the website www.findyourcanopy.com and the mobile application known as ‘Canopy’ (together, the “Platform”), including the following:",
+      verify__email__title__text: "Verify your email address",
+      verify__email__text:
+        "We need to know you are you before creating a RentPassport. Please click the link in the email we sent you.",
+      open__email__client: "Open my email client",
+      resend__verification__email: "Resend verification email",
+      not__received__an__email: "Not received an email?",
+      forgot_password: "Forgot your password?",
+      reset_password: "Change your password",
+      tenant_reference_submitted: "Reference submitted",
+      tenant_reference_thanks_for_time:
+        "Thanks for taking the time to submit a tenant reference for",
+      tenant_reference_did_you_know:
+        "Did you know that Canopy offers the following property management tools to tenants, landlords and agents:",
+      tenant_reference_rent_passport_text:
+        "Full tenant referencing and property management including deposits and payments",
+      tenant_reference_deposit_free_text:
+        "Qualified tenants can pay a premium to cover their rental security deposit",
+      tenant_reference_home_management_text:
+        "With a valid UK Open Banking account, tenants are able to have rent payments contribute to their Experian credit report",
+      find_out_more: "Find out more",
+      tenant_reference_title: "Tenant reference request",
+      upload_tenant_reference_document: "Upload tenant reference document",
+      upload_tenant_reference_document_description:
+        "If you have a manual form you usually use, please upload it here.",
+      upload: "Upload",
+      submit_reference: "Submit reference",
+      tenant_reference_request: "Tenant reference request",
+      complete_reference_form_description:
+        " tenant of yours, has authorised us to request a reference from you.\n" +
+        "As you know a landlord reference is significant information when determining eligibility of a prospective tenant, so please consider the questions below carefully and feel free to make additional comments.",
+      upload_reference_document: "Upload reference document",
+      complete_reference_form: "Complete reference form",
+      complete_reference_form_a: ", a ",
+      truelayer: {
+        truelayer_auth_title: "Truelayer Authorize",
+      },
+      employer_reference_form_description:
+        " has advised us that you are their employer and has authorised us to request a reference from you.\n" +
+        "As you know an employment reference is significant information when determining eligibility of a prospective tenant, so please consider the questions below carefully and feel free to make additional comments.",
+    },
+  },
+  auth: {
+    user: null,
+    isLoggedIn: false,
+  },
+  dimensions: {
+    fontScale: 1,
+    height: 901,
+    scale: 1,
+    width: 1920,
+    size: "L",
+  },
+  inputField: {
+    showPassword: true,
+  },
+  form: {},
+  partialForm: {
+    values: {},
+  },
+  progress: 0,
+  notification: {
+    type: null,
+    message: "",
+  },
+  user: {
+    profile: {
+      firstName: "FirstName",
+      lastName: "LastName",
+    },
+  },
+  router: {
+    location: {
+      pathname: "/tenant-reference-request/complete",
+      search: "",
+      hash: "",
+    },
+    action: "POP",
+  },
+  lookups: {
+    addresses: [],
+  },
+  topbar: {
+    haveTopbar: true,
+    topbarBtn: {
+      haveTopbarButton: false,
+      topbarButtonText: "",
+      btnType: "transparent_green",
+      topbarButtonIcon: undefined,
+      hideBackButton: false,
+    },
+    topbarCenter: {
+      topbarCenterText: "Center",
+    },
+    topbarLeft: {
+      topbarLeftText: "Back",
+    },
+  },
+  images: {
+    accepted: [],
+  },
+  rentPassport: {
+    aboutYou: {
+      email: "jonathan@gmail.com",
+      firstName: "Jonathan",
+      lastName: "Beaumont",
+      middleName: null,
+      gender: "MALE",
+      dayOfBirth: 20,
+      monthOfBirth: 11,
+      yearOfBirth: 1970,
+      maritalStatus: "MARRIED",
+      phoneNumber: "01123456789",
+      nationality: "UK",
+      isSmoker: true,
+      hasPets: true,
+      hasChildren: true,
+      status: "GREEN",
+      messages: [],
+    },
+    financial: {
+      salary: 100000,
+      pension: 0,
+      interest: 0,
+      benefits: 0,
+      rentals: 0,
+      other: 0,
+      grossAnnualIncome: 100000,
+      sourcesOfIncome: ["Employment"],
+      status: "YELLOW",
+      messages: [],
+      bankrupt: false,
+      creditScore: 930,
+      depositFree: true,
+      maximumEligible: 1800.266,
+      activeCCJs: 0,
+      activeCCJYear: 0,
+      activeCCJMonth: 0,
+      activeCCJValue: 0,
+      previousCCJs: 0,
+      previousCCJsYear: 0,
+      previousCCJsMonth: 0,
+      activeInsolvencies: 0,
+      activeInsolvenciesYear: 0,
+      activeInsolvenciesMonth: 0,
+      previousInsolvencies: false,
+      previousInsolvenciesYear: 0,
+      previousInsolvenciesMonth: 0,
+    },
+    rentPassportLegal: {
+      pep: false,
+      mortality: "passed",
+      legalWarnings: false,
+      sanctions: false,
+      status: "GREEN",
+      messages: [],
+    },
+    whatYouDo: {
+      workInfo: [
+        {
+          workStatus: "EMPLOYED",
+          companyName: "companyName",
+          jobTitle: "jobTitle",
+          income: 100000,
+          employmentTime: "FULL_TIME",
+          employmentType: "CONTRACT",
+          workedSinceMonth: 12,
+          workedSinceYear: 2017,
+          studentType: "POST_GRADUATE_STUDENT",
+          reference: {
+            contactFirstName: "Silvester",
+            contactLastName: "Stallone",
+            contactEmailAddress: "rambo666@gmail.com",
+            referredAt: "12-12-2016",
+          },
+          status: "GREEN",
+          messages: [],
+        },
+      ],
+    },
+    whereYouLived: {
+      residenceInfo: [
+        {
+          line1: "Addresss line 1",
+          town: "Town",
+          state: "State",
+          postCode: "UL11223",
+          countryCode: "UK",
+          residenceType: "RENTING_FROM_AGENT",
+          livedSinceMonth: 1,
+          livedSinceYear: 2016,
+          livedToMonth: null,
+          livedToYear: null,
+          reference: {
+            contactFirstName: "Jonathan",
+            contactLastName: "Beaumont",
+            contactEmailAddress: "jonathan@gmail.com",
+            referredAt: "01-01-2018",
+          },
+          status: "GREEN",
+          messages: [],
+        },
+      ],
+    },
+  },
+};

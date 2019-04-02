@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/actions/properties.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">src/actions</a> properties.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">35.29% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>12/34</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/8</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">18.75% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/16</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">34.62% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>9/26</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import {
+  GET_PROPERTY,
+  DELETE_PROPERTY,
+  GET_PASSPORTS,
+  GET_PROPERTY_PASSPORTS_GROUP,
+} from "./types";
+import * as API from "../utils/api";
+import * as NotificationsAction from "./notifications";
+import {push} from "connected-react-router";
+import store from "../utils/store/store";
+&nbsp;
+const rentPassportSharedTranslation = store.getState().locale.translations
+  .rent_passport_shared_success;
+&nbsp;
+export const getProperty = property =&gt; ({
+  type: GET_PROPERTY,
+  property,
+});
+&nbsp;
+export const deleteProperty = () =&gt; ({
+  type: DELETE_PROPERTY,
+});
+&nbsp;
+export const fetchPropertyById = <span class="fstat-no" title="function not covered" >pr</span>opertyId =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >as</span>ync dispatch =&gt; {</span>
+  const property = <span class="cstat-no" title="statement not covered" >await API.default</span>
+    .fetchPropertyById(propertyId)
+    .catch(<span class="fstat-no" title="function not covered" >({</span>error}) =&gt; <span class="cstat-no" title="statement not covered" >dispatch(NotificationsAction.errorNotification(error)))</span>;
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  if (property) {</span>
+<span class="cstat-no" title="statement not covered" >    dispatch(getProperty(property));</span>
+  }
+};
+&nbsp;
+export const fetchSharedPassportsWithProperty = <span class="fstat-no" title="function not covered" >pr</span>opertyId =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >as</span>ync dispatch =&gt; {</span>
+  const passports = <span class="cstat-no" title="statement not covered" >await API.default</span>
+    .fetchSharedRentPassportsWithProperty(propertyId)
+    .catch(<span class="fstat-no" title="function not covered" >({</span>error}) =&gt; <span class="cstat-no" title="statement not covered" >dispatch(NotificationsAction.errorNotification(error)))</span>;
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  if (passports) {</span>
+<span class="cstat-no" title="statement not covered" >    dispatch(getPassports(passports));</span>
+  }
+};
+&nbsp;
+export const getPassports = <span class="fstat-no" title="function not covered" >pa</span>ssports =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  type: GET_PASSPORTS,
+  passports,
+});
+&nbsp;
+export const deleteSharedPropertyByIds = <span class="fstat-no" title="function not covered" >da</span>ta =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >as</span>ync dispatch =&gt; {</span>
+  const property = <span class="cstat-no" title="statement not covered" >await API.default</span>
+    .deleteSharedPropertyByIds(data)
+    .catch(<span class="fstat-no" title="function not covered" >({</span>error}) =&gt; <span class="cstat-no" title="statement not covered" >dispatch(NotificationsAction.errorNotification(error)))</span>;
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  if (property) {</span>
+<span class="cstat-no" title="statement not covered" >    dispatch(deleteProperty(property));</span>
+<span class="cstat-no" title="statement not covered" >    dispatch(push("/properties"));</span>
+  }
+};
+&nbsp;
+export const sharePropertyRentPassport = <span class="fstat-no" title="function not covered" >gr</span>oupId =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >as</span>ync dispatch =&gt; {</span>
+  const passport = <span class="cstat-no" title="statement not covered" >await API.default</span>
+    .sharePropertyRentPassport(groupId)
+    .catch(<span class="fstat-no" title="function not covered" >({</span>error}) =&gt; <span class="cstat-no" title="statement not covered" >dispatch(NotificationsAction.errorNotification(error)))</span>;
+<span class="cstat-no" title="statement not covered" >  if (passport) {</span>
+<span class="cstat-no" title="statement not covered" >    dispatch(</span>
+      NotificationsAction.infoNotification(rentPassportSharedTranslation),
+    );
+  }
+};
+&nbsp;
+export const setPassportsGroup = rentPassportsGroup =&gt; ({
+  type: GET_PROPERTY_PASSPORTS_GROUP,
+  rentPassportsGroup,
+});
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Mar 28 2019 14:23:50 GMT+0700 (Indochina Time)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

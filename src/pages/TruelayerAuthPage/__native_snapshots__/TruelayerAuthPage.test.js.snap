@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing TruelayerAuth snapshot renders as expected 1`] = `
+<Styled(Component)>
+  <Styled(Text)>
+    Truelayer Authorize
+  </Styled(Text)>
+  <WebView
+    mixedContentMode="always"
+    onMessage={[Function]}
+    scalesPageToFit={true}
+    source={
+      Object {
+        "uri": "https://auth.truelayer.com/?response_type=code&client_id=canopy-eb85&nonce=3809381623&scope=info%20accounts%20balance%20transactions%20cards%20offline_access&redirect_uri=http://localhost:8080/api/rent-tracking/callback&enable_mock=true&response_mode=form_post",
+      }
+    }
+    style={
+      Object {
+        "alignItems": "stretch",
+        "alignSelf": "stretch",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+    title="Truelayer Authorize"
+  />
+</Styled(Component)>
+`;

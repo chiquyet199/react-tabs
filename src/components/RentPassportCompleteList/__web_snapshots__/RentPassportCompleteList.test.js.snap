@@ -1,0 +1,547 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RentPassportCompleteList RentPassportComplete render renders properly - web 1`] = `
+<Styled(View)>
+  <RentPassportCompleteList
+    collapsedByDefault={true}
+    detailsMargin={14}
+    fullWidthContentDivider={true}
+    iconMargin={14}
+    item={
+      Object {
+        "icons": Object {
+          "collapsed": "ic_down_arrow_gray.png",
+          "complete": "tick-circle",
+          "incomplete": "close-circle",
+          "main": "profile.png",
+          "open": "ic_up_arrow_gray.png",
+        },
+        "infoText": "Full name, birthday and rental preferences",
+        "statusText": Object {
+          "complete": "Complete",
+          "incomplete": "Incomplete",
+        },
+        "title": "About you",
+        "uiComponent": "aboutYou",
+      }
+    }
+    key="About you"
+    rentPassport={
+      Object {
+        "aboutYou": Object {
+          "dayOfBirth": 20,
+          "email": "jonathan@gmail.com",
+          "firstName": "Jonathan",
+          "gender": "MALE",
+          "hasChildren": true,
+          "hasPets": true,
+          "isSmoker": true,
+          "lastName": "Beaumont",
+          "maritalStatus": "MARRIED",
+          "messages": Array [],
+          "middleName": null,
+          "monthOfBirth": 11,
+          "nationality": "UK",
+          "phoneNumber": "01123456789",
+          "status": "GREEN",
+          "yearOfBirth": 1970,
+        },
+        "financial": Object {
+          "activeCCJMonth": 0,
+          "activeCCJValue": 0,
+          "activeCCJYear": 0,
+          "activeCCJs": 0,
+          "activeInsolvencies": 0,
+          "activeInsolvenciesMonth": 0,
+          "activeInsolvenciesYear": 0,
+          "bankrupt": false,
+          "benefits": 0,
+          "creditScore": 930,
+          "depositFree": true,
+          "grossAnnualIncome": 100000,
+          "interest": 0,
+          "maximumEligible": 1800.266,
+          "messages": Array [],
+          "other": 0,
+          "pension": 0,
+          "previousCCJs": 0,
+          "previousCCJsMonth": 0,
+          "previousCCJsYear": 0,
+          "previousInsolvencies": false,
+          "previousInsolvenciesMonth": 0,
+          "previousInsolvenciesYear": 0,
+          "rentals": 0,
+          "salary": 100000,
+          "sourcesOfIncome": Array [
+            "Employment",
+          ],
+          "status": "YELLOW",
+        },
+        "rentPassportLegal": Object {
+          "legalWarnings": false,
+          "messages": Array [],
+          "mortality": "passed",
+          "pep": false,
+          "sanctions": false,
+          "status": "GREEN",
+        },
+        "whatYouDo": Object {
+          "workInfo": Array [
+            Object {
+              "companyName": "companyName",
+              "employmentTime": "FULL_TIME",
+              "employmentType": "CONTRACT",
+              "income": 100000,
+              "jobTitle": "jobTitle",
+              "messages": Array [],
+              "reference": Object {
+                "contactEmailAddress": "rambo666@gmail.com",
+                "contactFirstName": "Silvester",
+                "contactLastName": "Stallone",
+                "referredAt": "12-12-2016",
+              },
+              "status": "GREEN",
+              "studentType": "POST_GRADUATE_STUDENT",
+              "workStatus": "EMPLOYED",
+              "workedSinceMonth": 12,
+              "workedSinceYear": 2017,
+            },
+          ],
+        },
+        "whereYouLived": Object {
+          "residenceInfo": Array [
+            Object {
+              "countryCode": "UK",
+              "line1": "Addresss line 1",
+              "livedSinceMonth": 1,
+              "livedSinceYear": 2016,
+              "livedToMonth": null,
+              "livedToYear": null,
+              "messages": Array [],
+              "postCode": "UL11223",
+              "reference": Object {
+                "contactEmailAddress": "jonathan@gmail.com",
+                "contactFirstName": "Jonathan",
+                "contactLastName": "Beaumont",
+                "referredAt": "01-01-2018",
+              },
+              "residenceType": "RENTING_FROM_AGENT",
+              "state": "State",
+              "status": "GREEN",
+              "town": "Town",
+            },
+          ],
+        },
+      }
+    }
+    scaleImages={Object {}}
+    translations={
+      Object {
+        "aboutYou": Object {
+          "children": "Children",
+          "gender": "Gender",
+          "login__email__label": "Email address",
+          "marital_status": "Marital status",
+          "name": "Name",
+          "pets": "Pets",
+          "phone_number": "Phone number",
+          "smoker": "Smoker",
+          "your_birthday": "Your birthday",
+        },
+        "errors": Object {
+          "Tenant_has_less_eligible_": Object {
+            "text": "Tenant has less eligible",
+          },
+          "Tenant_has_pets_": Object {
+            "text": "Tenant has pets",
+          },
+          "Tenant_is_smoker_": Object {
+            "text": "Tenant is smoker",
+          },
+          "creditScore_failed": Object {
+            "action": "Renting with a guarantor",
+            "text": "Very poor credit score",
+          },
+          "credit_countyCourtJudgments_failed": Object {
+            "action": "Renting with a guarantor",
+            "text": "Active CCJs",
+          },
+          "credit_insolvency_failed": Object {
+            "action": "Renting with a guarantor",
+            "text": "Active insolvency",
+          },
+          "credit_insolvency_status_failed": Object {
+            "action": "Renting with a guarantor",
+            "text": "Insolvency status",
+          },
+          "credit_numberOfBankruptcies_failed": Object {
+            "action": "Renting with a guarantor",
+            "text": "Bankrupt",
+          },
+          "dateOfBirth_unverified": Object {
+            "action": "Contact support",
+            "text": "We can't verify your date of birth",
+          },
+          "finance_grossAnnualIncome_pendingManualVerification": Object {
+            "action": "Verify income",
+            "text": "Annual income not verified",
+          },
+          "grossAnnualIncome_unverified": Object {
+            "action": "Verify income",
+            "text": "Annual income not verified",
+          },
+          "identity_mortality_failed": Object {
+            "action": "Contact support",
+            "text": "Failed mortality",
+          },
+          "location_currentAddress_pendingManualVerification": Object {
+            "action": "Contact support",
+            "text": "Pending address verification",
+          },
+          "name_unverified": Object {
+            "action": "Contact support",
+            "text": "We can't verify your identity",
+          },
+          "nationality_unverified": Object {
+            "action": "Contact support",
+            "text": "We can't verify your nationality",
+          },
+          "paidWork_unverified": Object {
+            "action": "Renting with a guarantor",
+            "text": "Not in paid work right now",
+          },
+          "pendingEmployerReference": Object {
+            "action": "Reference request pending",
+            "text": "No employer reference received",
+          },
+          "pendingReference": Object {
+            "action": "Reference request pending",
+            "text": "No landlord/agent reference received",
+          },
+          "pendingSourcesOfIncome": Object {
+            "action": "Income verification pending",
+            "text": "Income not verified",
+          },
+          "previousCCJs_warning": Object {
+            "text": "Previous CCJ",
+          },
+          "previousInsolvencies_warning": Object {
+            "text": "Previous insolvency",
+          },
+          "requestReference": Object {
+            "action": "Request reference",
+            "text": "No employer reference received",
+          },
+          "sourcesOfIncome_unverified": Object {
+            "action": "Verify income",
+            "text": "Income not verified",
+          },
+          "unverified": Object {
+            "action": "Contact support",
+            "text": "We can't verify your information",
+          },
+          "watchList_legalAndRegulatoryWarnings_failed": Object {
+            "action": "Contact support",
+            "text": "Legal warnings",
+          },
+          "watchList_politicallyExposedPerson_failed": Object {
+            "action": "Contact support",
+            "text": "Politically exposed person",
+          },
+          "watchList_sanction_failed": Object {
+            "action": "Contact support",
+            "text": "Sanctions",
+          },
+        },
+        "financial": Object {
+          "active_ccjss": "Active CCJs",
+          "active_insolvencies": "Active Insolvencies",
+          "available": "Available",
+          "bankrupt": "Bankrupt",
+          "deposit_free": "Deposit Free",
+          "maximum_eligible": "Maximum eligible",
+          "previous_ccjss": "Previous CCJs",
+          "previous_insolvencies": "Previous Insolvencies",
+          "sources_of_income": "Sources of income",
+          "total_annual_income": "Total annual income",
+          "unavailable": "Unavailable",
+        },
+        "no": "No",
+        "none": "None",
+        "rentPassportLegal": Object {
+          "failed": "Failed",
+          "legal_warnings": "Legal warnings",
+          "living": "living",
+          "mortality": "Mortality",
+          "none": "None",
+          "passed": "Passed",
+          "pep": "PEP",
+          "sanctions": "Sanctions",
+        },
+        "rightToRentInfo": Object {
+          "fail": "declined",
+          "failed": "Failed",
+          "pass": "verified",
+          "pending": "pending",
+          "rightToRent": "Right to rent ",
+          "status": "Status",
+          "submitted": "submitted",
+          "uploadRight": "Please upload right to rent",
+          "verified": "Verified",
+        },
+        "whatYouDo": Object {
+          "annual_pension": "Annual pension",
+          "annual_salary": "Annual salary",
+          "company_name": "Company name",
+          "employment_type": "Employment Status",
+          "full_or_part_time": "Full or part time",
+          "job_title": "Job title",
+          "not_in_paid_work": "Not in paid work",
+          "not_received": "Not yet received",
+          "permanent_or_contract": "Permanent or contract",
+          "received": "received",
+          "referee_position_at_company": "Referee position at company",
+          "reference": "Reference",
+          "student_type": "Student type",
+          "what_you_do": "What you do",
+          "worked_here_since": "Worked here since",
+        },
+        "whereYouLived": Object {
+          "address": "Address",
+          "current_address": "Current address",
+          "lived_here_since": "Lived here since",
+          "lived_here_to": "Lived here to",
+          "not_received": "Not yet received",
+          "received": "received",
+          "reference": "Reference",
+          "residence_type": "Residence type",
+        },
+        "yes": "Yes",
+      }
+    }
+  />
+</Styled(View)>
+`;
+
+exports[`RentPassportCompleteList RentPassportCompleteList render renders properly - web 1`] = `
+<Fragment>
+  <Collapse
+    collapsed={true}
+    onToggle={[Function]}
+  >
+    <CollapseContent
+      hpadding={10}
+      type="header"
+    >
+      <Styled(View)>
+        <Styled(Image)
+          complete={true}
+          source="profile.png"
+        />
+        <Styled(View)>
+          <Styled(View)>
+            <Connect(WithTheme(Styled(Text)))
+              complete={true}
+            >
+              About you
+            </Connect(WithTheme(Styled(Text)))>
+            <Styled(View)>
+              <Icon
+                allowFontScaling={false}
+                color="#5ab88e"
+                name="tick-circle"
+                size={24}
+              />
+            </Styled(View)>
+          </Styled(View)>
+          <Styled(View)>
+            <Connect(WithTheme(Styled(Text)))
+              complete={true}
+              ellipsizeMode="tail"
+            >
+              Full name, birthday and rental preferences
+            </Connect(WithTheme(Styled(Text)))>
+            <Styled(Image)
+              source="ic_down_arrow_gray.png"
+            />
+          </Styled(View)>
+        </Styled(View)>
+      </Styled(View)>
+    </CollapseContent>
+    <CollapseContent
+      hpadding={10}
+      type="body"
+    >
+      <Styled(View)>
+        <Connect(RentPassportCollapseContent)
+          component="aboutYou"
+          errorTexts={
+            Object {
+              "Tenant_has_less_eligible_": Object {
+                "text": "Tenant has less eligible",
+              },
+              "Tenant_has_pets_": Object {
+                "text": "Tenant has pets",
+              },
+              "Tenant_is_smoker_": Object {
+                "text": "Tenant is smoker",
+              },
+              "creditScore_failed": Object {
+                "action": "Renting with a guarantor",
+                "text": "Very poor credit score",
+              },
+              "credit_countyCourtJudgments_failed": Object {
+                "action": "Renting with a guarantor",
+                "text": "Active CCJs",
+              },
+              "credit_insolvency_failed": Object {
+                "action": "Renting with a guarantor",
+                "text": "Active insolvency",
+              },
+              "credit_insolvency_status_failed": Object {
+                "action": "Renting with a guarantor",
+                "text": "Insolvency status",
+              },
+              "credit_numberOfBankruptcies_failed": Object {
+                "action": "Renting with a guarantor",
+                "text": "Bankrupt",
+              },
+              "dateOfBirth_unverified": Object {
+                "action": "Contact support",
+                "text": "We can't verify your date of birth",
+              },
+              "finance_grossAnnualIncome_pendingManualVerification": Object {
+                "action": "Verify income",
+                "text": "Annual income not verified",
+              },
+              "grossAnnualIncome_unverified": Object {
+                "action": "Verify income",
+                "text": "Annual income not verified",
+              },
+              "identity_mortality_failed": Object {
+                "action": "Contact support",
+                "text": "Failed mortality",
+              },
+              "location_currentAddress_pendingManualVerification": Object {
+                "action": "Contact support",
+                "text": "Pending address verification",
+              },
+              "name_unverified": Object {
+                "action": "Contact support",
+                "text": "We can't verify your identity",
+              },
+              "nationality_unverified": Object {
+                "action": "Contact support",
+                "text": "We can't verify your nationality",
+              },
+              "paidWork_unverified": Object {
+                "action": "Renting with a guarantor",
+                "text": "Not in paid work right now",
+              },
+              "pendingEmployerReference": Object {
+                "action": "Reference request pending",
+                "text": "No employer reference received",
+              },
+              "pendingReference": Object {
+                "action": "Reference request pending",
+                "text": "No landlord/agent reference received",
+              },
+              "pendingSourcesOfIncome": Object {
+                "action": "Income verification pending",
+                "text": "Income not verified",
+              },
+              "previousCCJs_warning": Object {
+                "text": "Previous CCJ",
+              },
+              "previousInsolvencies_warning": Object {
+                "text": "Previous insolvency",
+              },
+              "requestReference": Object {
+                "action": "Request reference",
+                "text": "No employer reference received",
+              },
+              "sourcesOfIncome_unverified": Object {
+                "action": "Verify income",
+                "text": "Income not verified",
+              },
+              "unverified": Object {
+                "action": "Contact support",
+                "text": "We can't verify your information",
+              },
+              "watchList_legalAndRegulatoryWarnings_failed": Object {
+                "action": "Contact support",
+                "text": "Legal warnings",
+              },
+              "watchList_politicallyExposedPerson_failed": Object {
+                "action": "Contact support",
+                "text": "Politically exposed person",
+              },
+              "watchList_sanction_failed": Object {
+                "action": "Contact support",
+                "text": "Sanctions",
+              },
+            }
+          }
+          messageGroups={Array []}
+          scaleImages={Object {}}
+          schema={
+            Array [
+              Object {
+                "dateOfBirth": Object {
+                  "error": false,
+                  "title": "Your birthday",
+                  "value": "20.11.1970",
+                  "width": 50,
+                },
+                "email": Object {
+                  "title": "Email address",
+                  "value": "jonathan@gmail.com",
+                  "width": 100,
+                },
+                "gender": Object {
+                  "title": "Gender",
+                  "value": "Male",
+                  "width": 50,
+                },
+                "hasChildren": Object {
+                  "title": "Children",
+                  "value": "Yes",
+                  "width": 50,
+                },
+                "hasPets": Object {
+                  "title": "Pets",
+                  "value": "Yes",
+                  "width": 50,
+                },
+                "isSmoker": Object {
+                  "title": "Smoker",
+                  "value": "Yes",
+                  "width": 50,
+                },
+                "maritalStatus": Object {
+                  "title": "Marital status",
+                  "value": "Married",
+                  "width": 50,
+                },
+                "name": Object {
+                  "error": false,
+                  "title": "Name",
+                  "value": "Jonathan  Beaumont",
+                  "width": 100,
+                },
+                "phoneNumber": Object {
+                  "title": "Phone number",
+                  "value": "01123456789",
+                  "width": 100,
+                },
+              },
+            ]
+          }
+          status="GREEN"
+        />
+      </Styled(View)>
+    </CollapseContent>
+  </Collapse>
+  <Connect(WithTheme(Styled(View))) />
+</Fragment>
+`;

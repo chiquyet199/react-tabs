@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion test CompatibleCollapsible tests CompatibleCollapsible matches snapshot on web 1`] = `
+<View>
+  <View>
+    <Text>
+      Lorem ipsum dolor sic amet
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Accordion test matches snapshot on web 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  focusedOpacity={0.7}
+  onPress={[Function]}
+>
+  <SampleTitle
+    collapsed={true}
+  />
+  <CompatibleCollapsible
+    collapsed={true}
+  >
+    <View>
+      <Text>
+        Lorem ipsum
+      </Text>
+    </View>
+  </CompatibleCollapsible>
+</TouchableOpacity>
+`;

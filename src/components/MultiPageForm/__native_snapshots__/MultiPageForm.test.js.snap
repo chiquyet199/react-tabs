@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiPageForm MultiPageForm snapshot test on - ios 1`] = `
+<Connect(Connect(FormPage))
+  globaltheme="light"
+  hasErrors={false}
+  onSubmit={[Function]}
+  schema={
+    Object {
+      "header": "Test header",
+      "info": "Test info",
+      "next": "test1",
+      "pageTitle": "Test",
+      "prev": "test",
+      "progress": 50,
+      "properties": Object {
+        "email": Object {
+          "title": "Test",
+          "type": "string",
+          "validations": Array [
+            [Function],
+          ],
+        },
+      },
+      "skippable": false,
+      "title": "test",
+      "type": "object",
+    }
+  }
+/>
+`;

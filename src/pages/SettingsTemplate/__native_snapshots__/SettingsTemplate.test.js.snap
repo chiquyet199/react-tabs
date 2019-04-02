@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About You Agency Settings - page tests matches snapshot 1`] = `
+<Connect(Connect(FormPage))
+  initialValues={
+    Object {
+      "name": "Test name",
+    }
+  }
+  onSubmit={[Function]}
+  schema={
+    Object {
+      "buttonIcon": null,
+      "buttonStyles": Array [
+        Object {
+          "alignSelf": "flex-end",
+          "width": "165px",
+        },
+      ],
+      "buttonText": "Save",
+      "header": "Test About header",
+      "info": "Test About info",
+      "layout": "hq",
+      "properties": Object {
+        "name": Object {
+          "title": "Test name",
+          "type": "string",
+        },
+      },
+      "type": "object",
+    }
+  }
+/>
+`;
+
+exports[`About You Agency Settings - page tests renders without initial values 1`] = `
+<Connect(Connect(FormPage))
+  initialValues={null}
+  onSubmit={[Function]}
+  schema={
+    Object {
+      "buttonIcon": null,
+      "buttonStyles": Array [
+        Object {
+          "alignSelf": "flex-end",
+          "width": "165px",
+        },
+      ],
+      "buttonText": "Save",
+      "header": "Test About header",
+      "info": "Test About info",
+      "layout": "hq",
+      "properties": Object {
+        "name": Object {
+          "title": "Test name",
+          "type": "string",
+        },
+      },
+      "type": "object",
+    }
+  }
+/>
+`;

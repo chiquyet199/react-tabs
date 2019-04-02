@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WebFileUpload tests matches snapshot 1`] = `
+<styled.div>
+  <aside>
+    <styled.ul />
+  </aside>
+  <form
+    onSubmit={[Function]}
+  >
+    <Field
+      component={[Function]}
+      name="fileUpload"
+    />
+  </form>
+</styled.div>
+`;
+
+exports[`WebFileUpload tests renders Dropzone component and renders list then file is passed and removes on click 1`] = `
+<styled.div>
+  <aside>
+    <styled.ul>
+      <styled.li
+        key="File Name"
+      >
+        <Icon
+          allowFontScaling={false}
+          color="#6b7c93"
+          name="legal"
+          size={32}
+        />
+        <styled.span>
+          File Name
+        </styled.span>
+        <Styled(Icon)
+          globaltheme="light"
+          name="close"
+          onPress={[Function]}
+          size={32}
+          theme={
+            Object {
+              "buttons": Object {
+                "danger": Object {
+                  "background": "#f16651",
+                  "border": "#f16651",
+                  "fontWeight": "bold",
+                  "text": "#ffffff",
+                },
+                "facebook": Object {
+                  "background": undefined,
+                  "border": undefined,
+                  "fontWeight": "bold",
+                  "text": "#ffffff",
+                },
+                "primary": Object {
+                  "background": "#5ab1b8",
+                  "border": "#5ab1b8",
+                  "fontWeight": "bold",
+                  "text": "#ffffff",
+                },
+                "primary_outlined": Object {
+                  "background": "rgba(0, 0, 0, 0)",
+                  "border": "#5ab1b8",
+                  "fontWeight": "bold",
+                  "text": "#5ab1b8",
+                },
+                "secondary": Object {
+                  "background": "#ffffff",
+                  "border": "#5ab1b8",
+                  "fontWeight": "bold",
+                  "text": "#5ab1b8",
+                },
+                "site_page_util_bar_primary": Object {
+                  "background": "#5ab1b8",
+                  "border": "#5ab1b8",
+                  "fontSize": "14px",
+                  "fontWeight": "bold",
+                  "text": "#ffffff",
+                },
+                "tabButton": Object {
+                  "background": "#ffffff",
+                  "border": "#e3eaf2",
+                  "fontSize": "14px",
+                  "fontWeight": "bold",
+                  "text": "#6b7c93",
+                },
+                "tertiary": Object {
+                  "background": "#ffffff",
+                  "border": undefined,
+                  "fontWeight": "bold",
+                  "text": undefined,
+                },
+                "transparent": Object {
+                  "background": "rgba(0, 0, 0, 0)",
+                  "border": "rgba(0, 0, 0, 0)",
+                  "fontWeight": "bold",
+                  "text": "#ffffff",
+                },
+                "transparent_gray": Object {
+                  "background": "rgba(0, 0, 0, 0)",
+                  "border": "rgba(0, 0, 0, 0)",
+                  "fontWeight": "bold",
+                  "text": "#6b7c93",
+                },
+                "transparent_green": Object {
+                  "background": "rgba(0, 0, 0, 0)",
+                  "border": "rgba(0, 0, 0, 0)",
+                  "fontSize": "14px",
+                  "fontWeight": "bold",
+                  "text": "#5ab1b8",
+                },
+              },
+              "colors": Object {
+                "alertRed": "#f16651",
+                "black": "#000000",
+                "canopyGreen": "#5ab1b8",
+                "canopySoftSteel": "#8999ab",
+                "canopySoftSteelOverlay": "#f3f7fc",
+                "canopySteel": "#6b7c93",
+                "darkMint": "#5dc471",
+                "darkOverlay": "rgba(0, 0, 0, 0.8)",
+                "darkTeal": "#5ab1b8",
+                "darkTransparent": "rgba(0, 0, 0, 0.7)",
+                "lightSteel": "#e3eaf2",
+                "lightTeal": "#37b3ba",
+                "midTeal": "#42c8ce",
+                "none": "rgba(0, 0, 0, 0)",
+                "primary": "#5ab1b8",
+                "shadowColor": "rgba(107, 124, 147, 0.4)",
+                "steel": "#b9c7d6",
+                "switchColor": "#5dc471",
+                "veryLightSteel": "#f6f9fc",
+                "white": "#ffffff",
+              },
+              "dark": Object {
+                "accentColor": "#ffffff",
+                "background": Array [
+                  undefined,
+                  undefined,
+                ],
+                "baseColor": "#ffffff",
+                "form": Object {
+                  "accentColor": "#5ab1b8",
+                  "baseColor": "#ffffff",
+                  "bounceButton": "transparent",
+                },
+                "switch": Object {
+                  "accentColor": "#5dc471",
+                  "baseColor": "#ffffff",
+                },
+                "textColor": "#ffffff",
+              },
+              "hq": Object {
+                "accentColor": "#5ab1b8",
+                "background": Array [
+                  "#ffffff",
+                  "#ffffff",
+                ],
+                "baseColor": "#6b7c93",
+                "form": Object {
+                  "accentColor": "#5ab1b8",
+                  "baseColor": undefined,
+                },
+                "switch": Object {
+                  "accentColor": "#5dc471",
+                  "baseColor": "#ffffff",
+                },
+                "textColor": "#6b7c93",
+              },
+              "light": Object {
+                "accentColor": "#5ab1b8",
+                "background": Array [
+                  "#ffffff",
+                  "#ffffff",
+                ],
+                "baseColor": "#6b7c93",
+                "form": Object {
+                  "accentColor": "#5ab1b8",
+                  "baseColor": "#6b7c93",
+                  "bounceButton": "transparent_green",
+                },
+                "switch": Object {
+                  "accentColor": "#5dc471",
+                  "baseColor": "#ffffff",
+                },
+                "textColor": "#6b7c93",
+              },
+              "padding": Object {
+                "top": 0,
+              },
+            }
+          }
+        />
+      </styled.li>
+    </styled.ul>
+  </aside>
+  <form
+    onSubmit={[Function]}
+  >
+    <Field
+      component={[Function]}
+      name="customName"
+    />
+  </form>
+</styled.div>
+`;

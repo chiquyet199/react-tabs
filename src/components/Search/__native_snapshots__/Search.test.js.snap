@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component Search snapshot test on - ios 1`] = `
+<Styled(Component)>
+  <WithTheme(IconButton)
+    iconsize={36}
+    name="search"
+    onClick={[Function]}
+    type="transparent_gray"
+  />
+  <Connect(WithTheme(Styled(TextInput)))
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="A placeholder"
+    type="search"
+    value=""
+  />
+</Styled(Component)>
+`;

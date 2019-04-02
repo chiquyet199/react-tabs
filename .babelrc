@@ -1,0 +1,99 @@
+{
+  "env": {
+    "test:native": {
+      "plugins": [
+      ],
+      "presets": [
+        "es2015",
+        "react-native-stage-0",
+        "react-native-dotenv"
+  ]
+    },
+    "development:native": {
+      "plugins": [],
+      "presets": [
+        "es2015",
+        "react-native-stage-0",
+        "react-native-dotenv"
+      ]
+    },
+    "production:native": {
+      "plugins": [],
+      "presets": [
+        "es2015",
+        "react-native-stage-0",
+        "react-native-dotenv"
+      ]
+    },
+    "test:web": {
+      "plugins": [
+        "transform-class-properties",
+        "transform-async-to-generator",
+        "react-native-web/babel",
+        [
+          "transform-runtime",
+          {
+            "helpers": false,
+            "polyfill": false,
+            "regenerator": true
+          }
+        ]
+      ],
+      "presets": [
+        "react-native-stage-0",
+        "react-native-dotenv"
+      ]
+    },
+    "development:web": {
+      "plugins": [
+        [
+          "babel-plugin-styled-components",
+          {
+            "ssr": false
+          }
+        ],
+        "transform-class-properties",
+        "transform-async-to-generator",
+        "react-native-web/babel",
+        [
+          "transform-runtime",
+          {
+            "helpers": false, "polyfill": false, "regenerator": true
+          }
+        ]
+      ],
+      "presets": [
+        "es2015",
+        "react-native-stage-0",
+        "react-native-dotenv"
+      ]
+    },
+    "production:web": {
+      "plugins": [
+        [
+          "babel-plugin-styled-components",
+          {
+            "ssr": false,
+            "displayName": false,
+            "pure": true
+          }
+        ],
+        "transform-class-properties",
+        "transform-async-to-generator",
+        "react-native-web/babel",
+        [
+          "transform-runtime",
+          {
+            "helpers": false,
+            "polyfill": false,
+            "regenerator": true
+          }
+        ]
+      ],
+      "presets": [
+        "react-native-stage-0",
+        "react-native-dotenv"
+      ]
+    }
+  }
+}

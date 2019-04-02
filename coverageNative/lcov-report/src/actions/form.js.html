@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/actions/form.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">src/actions</a> form.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">66.67% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>50/75</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">55.56% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>10/18</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">63.33% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>19/30</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">69.35% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>43/62</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import {AsyncStorage} from "react-native";
+import {
+  CLEAR_FIELDS,
+  UPDATE_FIELDS,
+  POSTCODE_LOOKUP_RESULT,
+  POSTCODE_CLEAR_RESULT,
+} from "./types";
+import {loginSuccess, preActivationLogin} from "./auth";
+import {updateProgress, clearProgress} from "./progress";
+import {push} from "connected-react-router";
+import API from "../utils/api";
+import {errorNotification} from "./notifications";
+import {getRentPassport} from "./rent-passport";
+&nbsp;
+export const updateFields = <span class="fstat-no" title="function not covered" >va</span>lues =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  type: UPDATE_FIELDS,
+  values,
+});
+&nbsp;
+export const clearFields = <span class="fstat-no" title="function not covered" >()</span> =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  type: CLEAR_FIELDS,
+});
+&nbsp;
+export const postcodeLookupResult = values =&gt; ({
+  type: POSTCODE_LOOKUP_RESULT,
+  values,
+});
+&nbsp;
+export const postcodeClearResult = <span class="fstat-no" title="function not covered" >()</span> =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  type: POSTCODE_CLEAR_RESULT,
+});
+&nbsp;
+export const next = <span class="fstat-no" title="function not covered" >({</span>values, nextLoc}) =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >di</span>spatch =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  dispatch(updateFields(values));</span>
+<span class="cstat-no" title="statement not covered" >  dispatch(push(nextLoc));</span>
+};
+&nbsp;
+export const cancel = <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >di</span>spatch =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  dispatch(clearFields());</span>
+<span class="cstat-no" title="statement not covered" >  dispatch(push("/welcome"));</span>
+};
+&nbsp;
+export const registerUser = ({values, nextLoc}) =&gt; async dispatch =&gt; {
+  const user = await API.registerUser(values).catch(<span class="fstat-no" title="function not covered" >({</span>error}) =&gt;
+<span class="cstat-no" title="statement not covered" >    dispatch(errorNotification(error)),</span>
+  );
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  if (user) {</span>
+<span class="cstat-no" title="statement not covered" >    await AsyncStorage.setItem("preActivationData", JSON.stringify(user));</span>
+<span class="cstat-no" title="statement not covered" >    dispatch(preActivationLogin(user));</span>
+<span class="cstat-no" title="statement not covered" >    dispatch(push(nextLoc));</span>
+<span class="cstat-no" title="statement not covered" >    dispatch(updateProgress(0));</span>
+  }
+};
+&nbsp;
+export const registerUserProfile = ({values, nextLoc}) =&gt; async dispatch =&gt; {
+  const user = await API.registerUserProfile(values).catch(({error}) =&gt;
+    dispatch(errorNotification(error)),
+  );
+&nbsp;
+  if (user) {
+    dispatch(loginSuccess(user));
+    dispatch(push(nextLoc));
+    dispatch(updateProgress(0));
+  }
+};
+&nbsp;
+export const generateRentPassport = ({values, nextLoc}) =&gt; async dispatch =&gt; {
+  const rentPassport = await API.generateRentPassport(values).catch(({error}) =&gt;
+    dispatch(errorNotification(error)),
+  );
+&nbsp;
+  if (rentPassport) {
+    dispatch(getRentPassport(rentPassport));
+    dispatch(push(nextLoc));
+  }
+};
+&nbsp;
+export const lookupAddress = (postcode, countryCode) =&gt; async dispatch =&gt; {
+  const addresses = await API.postcodeLookup(postcode, countryCode).catch(
+    error =&gt; {
+      dispatch(errorNotification(error));
+    },
+  );
+  dispatch(postcodeLookupResult(addresses));
+};
+&nbsp;
+export const createReferenceRequest = <span class="fstat-no" title="function not covered" >({</span>values, nextLoc}) =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >as</span>ync dispatch =&gt; {</span>
+  const referenceRequest = <span class="cstat-no" title="statement not covered" >await API.createReferenceReq(values).catch(</span>
+<span class="fstat-no" title="function not covered" >    ({</span>error}) =&gt; <span class="cstat-no" title="statement not covered" >dispatch(errorNotification(error)),</span>
+  );
+<span class="cstat-no" title="statement not covered" >  if (referenceRequest) {</span>
+<span class="cstat-no" title="statement not covered" >    dispatch(push(nextLoc));</span>
+<span class="cstat-no" title="statement not covered" >    dispatch(updateProgress(0));</span>
+  }
+};
+&nbsp;
+export const inviteUser = values =&gt; async dispatch =&gt; {
+  const _values = {...values};
+  const branches = [];
+&nbsp;
+  Object.keys(values).forEach(k =&gt; {
+    <span class="missing-if-branch" title="if path not taken" >I</span>if (k.indexOf("branch_") === 0) {
+<span class="cstat-no" title="statement not covered" >      if (values[k]) {</span>
+<span class="cstat-no" title="statement not covered" >        branches.push(k.substr(7));</span>
+      }
+<span class="cstat-no" title="statement not covered" >      delete _values[k];</span>
+    }
+  });
+&nbsp;
+  _values.branches = branches;
+&nbsp;
+  const invitation = await API.inviteUser(_values).catch(({error}) =&gt;
+    dispatch(errorNotification(error)),
+  );
+  if (invitation) {
+    dispatch(push("/invite-user/success"));
+    dispatch(updateProgress(0));
+  }
+};
+&nbsp;
+export const createRentPassport = (values, nextLoc) =&gt; async dispatch =&gt; {
+  const result = await API.storeRentPassportData(values).catch(error =&gt; {
+    dispatch(errorNotification(error));
+  });
+&nbsp;
+  if (result) {
+    dispatch(clearProgress());
+    <span class="missing-if-branch" title="if path not taken" >I</span>if (nextLoc) {
+<span class="cstat-no" title="statement not covered" >      dispatch(push(nextLoc));</span>
+    }
+  }
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Mar 28 2019 14:23:50 GMT+0700 (Indochina Time)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

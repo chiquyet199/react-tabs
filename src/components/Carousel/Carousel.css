@@ -1,0 +1,16 @@
+/* Nuka Carousel style overrides */
+
+.slider.light-dots .slider-control-bottomcenter ul li button {
+  color: #ffffff !important;
+}
+
+.slider-control-bottomcenter ul {
+  top: 30px !important;
+}
+
+.slider-control-bottomcenter ul li button {
+  padding: 0 !important;
+  height: 24px;
+  width: 20px;
+  line-height: 1;
+}

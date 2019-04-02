@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditScoreScale renders as expected 1`] = `
+<Styled(Component)>
+  <Styled(Image)
+    source="FAIR.png"
+  />
+  <Styled(Component)>
+    <Styled(Connect(WithTheme(Styled(Text))))>
+      Credit Score
+    </Styled(Connect(WithTheme(Styled(Text))))>
+    <Styled(Connect(WithTheme(Styled(Text))))>
+      800
+    </Styled(Connect(WithTheme(Styled(Text))))>
+    <Styled(Text)>
+      out of 999
+    </Styled(Text)>
+  </Styled(Component)>
+</Styled(Component)>
+`;

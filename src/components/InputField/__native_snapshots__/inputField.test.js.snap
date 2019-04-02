@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputField/> component check snapshot 1`] = `
+<Connect(WithTheme(InputField))
+  autoCapitalize="sentences"
+  defaultValue=""
+  errorText=""
+  keyboardType={null}
+  label="label"
+  multiline={false}
+  onChangeText={[MockFunction]}
+  password={false}
+  prefix=""
+  showPassword={[Function]}
+  shownPassword={true}
+  textColor="#6b7c93"
+  theme={
+    Object {
+      "colors": Object {
+        "alertRed": "red",
+      },
+    }
+  }
+  tintColor="#6b7c93"
+/>
+`;

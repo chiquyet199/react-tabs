@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UKAddressEntry tests renders proper snapshot - ios 1`] = `
+<Fragment>
+  <Connect(WithTheme(SimpleDialog))
+    cancelButtonText="chooseAnother"
+    confirmButtonText="confirm"
+    globaltheme=""
+    isOpen={false}
+    onClose={[Function]}
+    onDialogCancel={[Function]}
+    onDialogConfirm={[Function]}
+    paragraph=""
+  />
+  <Connect(Connect(FormPage))
+    omitSubmit={true}
+    onSubmit={[Function]}
+    schema={
+      Object {
+        "header": undefined,
+        "info": undefined,
+        "properties": Object {
+          "postcode": Object {
+            "onAddressNotListed": [Function],
+            "onAddressSelected": [Function],
+            "title": "Postcode",
+            "type": "string",
+            "uiComponent": "postcode",
+          },
+        },
+        "type": "object",
+      }
+    }
+  />
+</Fragment>
+`;

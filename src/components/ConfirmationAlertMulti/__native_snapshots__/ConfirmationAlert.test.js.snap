@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Confirmation Alert component Confirmation Alert snapshot test on - ios 1`] = `
+<Component
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <Styled(Component)
+    onPress={[Function]}
+  >
+    <Connect(WithTheme(Styled(Component))) />
+  </Styled(Component)>
+</Component>
+`;

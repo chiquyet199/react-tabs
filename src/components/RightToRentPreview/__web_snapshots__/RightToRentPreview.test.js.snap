@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RightToRentPreview Tests Snapshot matches snapshot 1`] = `
+<Styled(View)>
+  <Styled(Text)
+    alert={false}
+    italic={true}
+  >
+    Right to rent pending
+  </Styled(Text)>
+</Styled(View)>
+`;

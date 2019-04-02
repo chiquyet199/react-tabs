@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Title Tests AccordionOpenIndicator tests matches snapshot on ios 1`] = `
+<Connect(WithTheme(Component))
+  name="chevron-down"
+  size={32}
+/>
+`;
+
+exports[`Accordion Title Tests Title snapshot tests AccordionWithCountTitle matches snapshot on ios 1`] = `
+<Component>
+  <Styled(Component)>
+    <Connect(WithTheme(Component))
+      name="rentpassport"
+      size={32}
+    />
+    <Styled(Connect(WithTheme(Styled(Text))))>
+      title
+    </Styled(Connect(WithTheme(Styled(Text))))>
+    <Connect(WithTheme(Styled(Text)))>
+      <Styled(Connect(WithTheme(Styled(Text))))>
+        99
+      </Styled(Connect(WithTheme(Styled(Text))))>
+    </Connect(WithTheme(Styled(Text)))>
+    <AccordionOpenIndicator />
+  </Styled(Component)>
+  <Component>
+    <Component>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        Lorem ipsum
+      </Text>
+    </Component>
+  </Component>
+</Component>
+`;
+
+exports[`Accordion Title Tests Title snapshot tests AccordionWithIconTitle matches snapshot on ios 1`] = `
+<Component>
+  <Styled(Component)>
+    <Connect(WithTheme(Component))
+      name="group"
+      size={32}
+    />
+    <Styled(Component)>
+      <Styled(Connect(WithTheme(Styled(Text))))>
+        title
+      </Styled(Connect(WithTheme(Styled(Text))))>
+      <Styled(Connect(WithTheme(Styled(Text))))>
+        subTitle
+      </Styled(Connect(WithTheme(Styled(Text))))>
+    </Styled(Component)>
+    <AccordionOpenIndicator />
+  </Styled(Component)>
+  <Component>
+    <Component>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        Lorem ipsum
+      </Text>
+    </Component>
+  </Component>
+</Component>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion test CompatibleCollapsible tests CompatibleCollapsible matches snapshot on ios 1`] = `
+<Collapsible
+  align="top"
+  collapsed={false}
+  collapsedHeight={0}
+  duration={300}
+  easing="easeOutCubic"
+  enablePointerEvents={false}
+  onAnimationEnd={[Function]}
+>
+  <Component>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Lorem ipsum dolor sic amet
+    </Text>
+  </Component>
+</Collapsible>
+`;
+
+exports[`Accordion test matches snapshot on ios 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <SampleTitle
+    collapsed={true}
+  />
+  <CompatibleCollapsible
+    collapsed={true}
+  >
+    <Component>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        Lorem ipsum
+      </Text>
+    </Component>
+  </CompatibleCollapsible>
+</TouchableOpacity>
+`;

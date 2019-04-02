@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon with content component IconWithContent snapshot test on - ios 1`] = `
+<Styled(Component)
+  disabled={false}
+  width={100}
+>
+  <Styled(Component)
+    size={32}
+  >
+    <Icon
+      allowFontScaling={false}
+      name={null}
+      size={32}
+    />
+  </Styled(Component)>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    globaltheme="light"
+    theme={Object {}}
+  >
+    Landlords name.
+  </Text>
+</Styled(Component)>
+`;

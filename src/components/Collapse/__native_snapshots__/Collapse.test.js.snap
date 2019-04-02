@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapse renders proper snapshot - ios 1`] = `
+<AnimatedComponent
+  collapsed={true}
+  onToggle={[MockFunction]}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "height": NaN,
+      "marginTop": 10,
+      "overflow": "hidden",
+    }
+  }
+>
+  <Component
+    onLayout={[Function]}
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <CollapseContent
+        padding="10px 0"
+        type="header"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          Test text header
+        </Text>
+      </CollapseContent>
+    </TouchableOpacity>
+  </Component>
+  <Component
+    onLayout={[Function]}
+  >
+    <CollapseContent
+      padding="10px"
+      type="body"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        Test text body
+      </Text>
+    </CollapseContent>
+  </Component>
+</AnimatedComponent>
+`;

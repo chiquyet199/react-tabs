@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel - page tests matches snapshot 1`] = `
+<Styled(Component)
+  width={500}
+>
+  <Carousel
+    activeAnimationOptions={null}
+    activeAnimationType="timing"
+    activeSlideAlignment="center"
+    activeSlideOffset={20}
+    apparitionDelay={0}
+    autoplay={true}
+    autoplayDelay={5000}
+    autoplayInterval={6000}
+    callbackOffsetMargin={5}
+    containerCustomStyle={Object {}}
+    contentContainerCustomStyle={Object {}}
+    data={
+      Array [
+        Object {
+          "node": <Component>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              Lorem
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              ipsum
+            </Text>
+          </Component>,
+          "text": "text text",
+          "thumbnail": "test.jpg",
+          "title": "title1",
+        },
+        Object {
+          "node": <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+            Lorem ipsum
+          </Text>,
+          "text": "text text",
+          "thumbnail": "test2.jpg",
+          "title": "title2",
+        },
+      ]
+    }
+    enableMomentum={false}
+    enableSnap={true}
+    firstItem={0}
+    hasParallaxImages={false}
+    inactiveSlideOpacity={0}
+    inactiveSlideScale={0.9}
+    inactiveSlideShift={0}
+    itemWidth={500}
+    layout="default"
+    lockScrollTimeoutDuration={1000}
+    lockScrollWhileSnapping={true}
+    loop={true}
+    loopClonesPerSide={3}
+    onSnapToItem={[Function]}
+    renderItem={[Function]}
+    scrollEnabled={true}
+    shouldOptimizeUpdates={true}
+    slideStyle={Object {}}
+    sliderWidth={500}
+    swipeThreshold={20}
+    useScrollView={false}
+    vertical={false}
+  />
+  <Pagination
+    activeDotIndex={0}
+    containerStyle={
+      Object {
+        "bottom": -10,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+    dotStyle={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": 5,
+        "height": 8,
+        "margin": 0,
+        "paddingHorizontal": 0,
+        "width": 8,
+      }
+    }
+    dotsLength={2}
+    inactiveDotOpacity={0.4}
+    inactiveDotScale={1}
+    tappableDots={false}
+    vertical={false}
+  />
+</Styled(Component)>
+`;

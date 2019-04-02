@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Property - page tests matches snapshot 1`] = `
+<Fragment>
+  <Styled(ScrollView)>
+    <Connect(ResponsiveWrapper)>
+      <Connect(Connect(WithTheme(NativeCarousel)))
+        dots="light"
+        fullWidth={true}
+        slides={
+          Array [
+            Object {
+              "createdAt": "01-01-2017",
+              "isPrimary": true,
+              "updatedAt": "01-01-2017",
+              "url": "http://cdn.home-designing.com/wp-content/uploads/2016/04/luxury-art-deco-apartment-interior.jpg",
+              "version": 1,
+            },
+            Object {
+              "createdAt": "01-01-2017",
+              "isPrimary": false,
+              "updatedAt": "01-01-2017",
+              "url": "http://cdn.home-designing.com/wp-content/uploads/2016/04/luxury-art-deco-apartment-interior.jpg",
+              "version": 1,
+            },
+            Object {
+              "createdAt": "01-01-2017",
+              "isPrimary": false,
+              "updatedAt": "01-01-2017",
+              "url": "http://cdn.home-designing.com/wp-content/uploads/2016/04/luxury-art-deco-apartment-interior.jpg",
+              "version": 1,
+            },
+          ]
+        }
+      />
+      <Styled(Component)>
+        <Connect(WithTheme(Styled(Component)))>
+          <Connect(WithTheme(Styled(Text)))>
+            2 bed apartment to rent
+          </Connect(WithTheme(Styled(Text)))>
+          <Connect(WithTheme(Styled(Text)))>
+            Address line 1, City / Town, FYC123
+          </Connect(WithTheme(Styled(Text)))>
+        </Connect(WithTheme(Styled(Component)))>
+        <Connect(WithTheme(Styled(Component)))>
+          <Connect(WithTheme(Styled(Text)))
+            bold="true"
+            mb={16}
+          >
+            1200
+             
+            pcm
+          </Connect(WithTheme(Styled(Text)))>
+          <IconWithContent
+            globaltheme="light"
+            icon="payments.png"
+            iconColor="#6b7c93"
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+          >
+            <Connect(WithTheme(Styled(Text)))
+              bold="true"
+            >
+              1800
+            </Connect(WithTheme(Styled(Text)))>
+            <Connect(WithTheme(Styled(Text)))>
+               deposit required
+            </Connect(WithTheme(Styled(Text)))>
+          </IconWithContent>
+          <IconWithContent
+            globaltheme="light"
+            icon="claims.png"
+            iconColor="#6b7c93"
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+          >
+            <Styled(Component)>
+              <Styled(Component)>
+                <Connect(WithTheme(Styled(Text)))
+                  bold="true"
+                >
+                  Deposit Free
+                </Connect(WithTheme(Styled(Text)))>
+                <Connect(WithTheme(Styled(Text)))>
+                  available
+                </Connect(WithTheme(Styled(Text)))>
+              </Styled(Component)>
+              <TextLink
+                gutters={0}
+                onClick={[Function]}
+              >
+                What is Deposit Free?
+              </TextLink>
+            </Styled(Component)>
+          </IconWithContent>
+        </Connect(WithTheme(Styled(Component)))>
+        <Connect(WithTheme(Styled(Component)))>
+          <IconWithContent
+            bold="true"
+            globaltheme="light"
+            icon="bedroom.png"
+            iconColor="#6b7c93"
+            text="2 bedrooms"
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+            width={50}
+          />
+          <IconWithContent
+            bold="true"
+            globaltheme="light"
+            icon="furnished.png"
+            iconColor="#6b7c93"
+            text="Part furnished"
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+            width={50}
+          />
+          <IconWithContent
+            bold="true"
+            globaltheme="light"
+            icon="bathroom.png"
+            iconColor="#6b7c93"
+            text="2 bathrooms"
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+            width={50}
+          />
+        </Connect(WithTheme(Styled(Component)))>
+        <Connect(WithTheme(Styled(Component)))>
+          <IconWithContent
+            bold="true"
+            disabled={false}
+            globaltheme="light"
+            icon="tick.png"
+            iconColor="#6b7c93"
+            text="Pets"
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+            width={50}
+          />
+          <IconWithContent
+            bold="true"
+            disabled={false}
+            globaltheme="light"
+            icon="tick.png"
+            iconColor="#6b7c93"
+            text="Parking"
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+            width={50}
+          />
+          <IconWithContent
+            bold="true"
+            disabled={true}
+            globaltheme="light"
+            icon="close.png"
+            iconColor="#6b7c93"
+            text="Smoking"
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+            width={50}
+          />
+          <IconWithContent
+            bold="true"
+            disabled={false}
+            globaltheme="light"
+            icon="tick.png"
+            iconColor="#6b7c93"
+            text="Outside space"
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+            width={50}
+          />
+        </Connect(WithTheme(Styled(Component)))>
+        <Connect(WithTheme(Styled(Component)))>
+          <Connect(WithTheme(ReadMore))
+            globaltheme="light"
+            text="Well presented ground floor apartment available on Stamford Street. The property is offered unfurnished and comprises entrance hallway, downstairs WC, lounge/diner with doors to balcony/terrace, storage cupboards, kitchen with white goods including electric cooke. Well presented ground floor apartment available on Stamford Street. The property is offered unfurnished and comprises entrance hallway, downstairs WC, lounge/diner with doors to balcony/terrace, storage cupboards, kitchen with white goods including electric cooker."
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+          />
+        </Connect(WithTheme(Styled(Component)))>
+      </Styled(Component)>
+      <Connect(ResponsiveWrapper)
+        source="map_placeholder.png"
+      />
+      <Styled(Component)
+        top={20}
+      >
+        <Connect(WithTheme(Styled(Component)))>
+          <Styled(Component)>
+            <Connect(WithTheme(Styled(Text)))>
+              Real Agency
+            </Connect(WithTheme(Styled(Text)))>
+          </Styled(Component)>
+          <IconWithContent
+            globaltheme="light"
+            icon="user.png"
+            iconColor="#6b7c93"
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+          >
+            <Connect(WithTheme(Styled(Text)))>
+              Becky Hammond
+            </Connect(WithTheme(Styled(Text)))>
+          </IconWithContent>
+          <IconWithContent
+            globaltheme="light"
+            icon="phone.png"
+            iconColor="#6b7c93"
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+          >
+            <TextLink
+              gutters={0}
+              onClick={[Function]}
+            >
+              0123456790
+            </TextLink>
+          </IconWithContent>
+          <IconWithContent
+            globaltheme="light"
+            icon="employment.png"
+            iconColor="#6b7c93"
+            text="Address line 1, City / Town, FYC123"
+            theme={
+              Object {
+                "light": Object {
+                  "baseColor": "#6b7c93",
+                  "lightSteel": "#e3eaf2",
+                  "veryLightSteel": "#f6f9fc",
+                },
+              }
+            }
+          />
+        </Connect(WithTheme(Styled(Component)))>
+      </Styled(Component)>
+      <Styled(Component)>
+        <Button
+          globaltheme="light"
+          iconsize={32}
+          left={null}
+          middle="Share Rent Passport"
+          onClick={[Function]}
+          right="arrow-right"
+          theme={
+            Object {
+              "light": Object {
+                "baseColor": "#6b7c93",
+                "lightSteel": "#e3eaf2",
+                "veryLightSteel": "#f6f9fc",
+              },
+            }
+          }
+          type="primary"
+        />
+      </Styled(Component)>
+      <Connect(WithTheme(SimpleDialog))
+        cancelButtonText="Cancel"
+        confirmButtonText="Stop sharing"
+        confirmButtonType="danger"
+        globaltheme="light"
+        isOpen={false}
+        onClose={[Function]}
+        onDialogCancel={[Function]}
+        onDialogConfirm={[Function]}
+        paragraph="Are you sure you want to stop sharing with \\"Real Agency-Chelsea\\"? This stop sharing with all associated properties"
+        title="Confirm stop sharing property"
+      />
+      <Connect(WithTheme(SimpleDialog))
+        cancelButtonText="Cancel"
+        confirmButtonText="Share"
+        confirmButtonType="danger"
+        globaltheme="light"
+        isOpen={false}
+        onClose={[Function]}
+        onDialogCancel={[Function]}
+        onDialogConfirm={[Function]}
+        paragraph="This will share all information in your Rent Passport and qualify you against the property."
+        title="Share your Rent Passport with \\"Real Agency,Chelsea\\"?"
+      />
+    </Connect(ResponsiveWrapper)>
+  </Styled(ScrollView)>
+</Fragment>
+`;

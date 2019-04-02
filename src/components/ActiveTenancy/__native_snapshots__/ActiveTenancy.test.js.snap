@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Active tenancy component tests DepositFree tests matches snapshot on ios 1`] = `
+<Accordion
+  title={[Function]}
+>
+  <Connect(WithTheme(Styled(Component)))
+    key="POLICY_SCHEDULE"
+  >
+    <Styled(Component)>
+      <Styled(Component)>
+        <Styled(Connect(WithTheme(Styled(Text))))>
+          depositFreeTitle
+        </Styled(Connect(WithTheme(Styled(Text))))>
+        <Styled(Connect(WithTheme(Styled(Text))))>
+          POLICY_SCHEDULE
+        </Styled(Connect(WithTheme(Styled(Text))))>
+      </Styled(Component)>
+      <Connect(WithTheme(Styled(Icon)))
+        name="legal"
+        size={32}
+      />
+    </Styled(Component)>
+  </Connect(WithTheme(Styled(Component)))>
+  <Connect(WithTheme(Styled(Component)))
+    key="STATEMENT_OF_FACTS"
+  >
+    <Styled(Component)>
+      <Styled(Component)>
+        <Styled(Connect(WithTheme(Styled(Text))))>
+          depositFreeTitle
+        </Styled(Connect(WithTheme(Styled(Text))))>
+        <Styled(Connect(WithTheme(Styled(Text))))>
+          STATEMENT_OF_FACTS
+        </Styled(Connect(WithTheme(Styled(Text))))>
+      </Styled(Component)>
+      <Connect(WithTheme(Styled(Icon)))
+        name="legal"
+        size={32}
+      />
+    </Styled(Component)>
+  </Connect(WithTheme(Styled(Component)))>
+</Accordion>
+`;
+
+exports[`Active tenancy component tests Housemates tests matches snapshot on ios 1`] = `
+<Accordion
+  title={[Function]}
+>
+  <Connect(WithTheme(Styled(Component)))
+    key="ghi-789"
+  >
+    <Styled(Component)>
+      <Connect(WithTheme(Styled(Icon)))
+        name="rent-passport"
+        size={46}
+      />
+      <Styled(Connect(WithTheme(Styled(Text))))>
+        Bill Oddy
+      </Styled(Connect(WithTheme(Styled(Text))))>
+    </Styled(Component)>
+  </Connect(WithTheme(Styled(Component)))>
+  <Connect(WithTheme(Styled(Component)))
+    key="ghi-987"
+  >
+    <Styled(Component)>
+      <Connect(WithTheme(Styled(Icon)))
+        name="rent-passport"
+        size={46}
+      />
+      <Styled(Connect(WithTheme(Styled(Text))))>
+        Damon Albarn
+      </Styled(Connect(WithTheme(Styled(Text))))>
+    </Styled(Component)>
+  </Connect(WithTheme(Styled(Component)))>
+</Accordion>
+`;
+
+exports[`Active tenancy component tests TenancyTerms tests matches snapshot on ios 1`] = `
+<Accordion
+  title={[Function]}
+>
+  <Connect(WithTheme(Styled(Component)))>
+    <Styled(Connect(WithTheme(Styled(Text))))>
+      totalRentTitle
+    </Styled(Connect(WithTheme(Styled(Text))))>
+    <Styled(Connect(WithTheme(Styled(Text))))>
+      currency_symbol1234undefined
+    </Styled(Connect(WithTheme(Styled(Text))))>
+  </Connect(WithTheme(Styled(Component)))>
+  <Connect(WithTheme(Styled(Component)))>
+    <Styled(Connect(WithTheme(Styled(Text))))>
+      termTitle
+    </Styled(Connect(WithTheme(Styled(Text))))>
+    <Styled(Connect(WithTheme(Styled(Text))))>
+      06.11.2018 - ongoing
+    </Styled(Connect(WithTheme(Styled(Text))))>
+  </Connect(WithTheme(Styled(Component)))>
+  <Connect(WithTheme(Styled(Component)))>
+    <Styled(Connect(WithTheme(Styled(Text))))>
+      additionalInfoTitle
+    </Styled(Connect(WithTheme(Styled(Text))))>
+    <Styled(Connect(WithTheme(Styled(Text)))) />
+  </Connect(WithTheme(Styled(Component)))>
+</Accordion>
+`;

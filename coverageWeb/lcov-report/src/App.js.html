@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/App.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../index.html">All files</a> / <a href="index.html">src</a> App.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/41</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/39</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" >import React, {Component} from "react";</span>
+<span class="cstat-no" title="statement not covered" >import {Provider} from "react-redux";</span>
+<span class="cstat-no" title="statement not covered" >import {ConnectedRouter} from "connected-react-router";</span>
+<span class="cstat-no" title="statement not covered" >import {Route, Switch, Redirect} from "react-router";</span>
+import {Dimensions} from "react-native";
+<span class="cstat-no" title="statement not covered" >import {ThemeProvider} from "styled-components";</span>
+<span class="cstat-no" title="statement not covered" >import RNSplashScreen from "react-native-splash-screen";</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >import theme from "./constants/theme";</span>
+<span class="cstat-no" title="statement not covered" >import {isNative} from "./utils/common";</span>
+<span class="cstat-no" title="statement not covered" >import store, {history} from "./utils/store/store";</span>
+<span class="cstat-no" title="statement not covered" >import {SET_DIMENSIONS} from "./actions/types";</span>
+<span class="cstat-no" title="statement not covered" >import PrivateRoute from "./components/PrivateRoute";</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >import About from "./pages/About";</span>
+<span class="cstat-no" title="statement not covered" >import AccountLogin from "./pages/AccountLogin";</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >import Home from "./pages/Home";</span>
+<span class="cstat-no" title="statement not covered" >import Contact from "./pages/Contact";</span>
+<span class="cstat-no" title="statement not covered" >import PasswordReset from "./pages/PasswordReset/index.reset";</span>
+<span class="cstat-no" title="statement not covered" >import PasswordForgot from "./pages/PasswordReset/index.forgot";</span>
+<span class="cstat-no" title="statement not covered" >import NotFound from "./pages/NotFound";</span>
+<span class="cstat-no" title="statement not covered" >import TermsAndConditions from "./pages/TermsAndConditions";</span>
+<span class="cstat-no" title="statement not covered" >import RentPassport from "./pages/RentPassport";</span>
+<span class="cstat-no" title="statement not covered" >import TopUtilBar from "./components/TopUtilBar";</span>
+<span class="cstat-no" title="statement not covered" >import GeneratingRentPassport from "./pages/GeneratingRentPassport";</span>
+<span class="cstat-no" title="statement not covered" >import TruelayerAuthPage from "./pages/TruelayerAuthPage";</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >import BottomMenu from "./components/BottomMenu";</span>
+<span class="cstat-no" title="statement not covered" >import SmartBackground from "./components/SmartBackground";</span>
+<span class="cstat-no" title="statement not covered" >import CrainPage from "./pages/CrainPage";</span>
+<span class="cstat-no" title="statement not covered" >import Addresses from "./pages/Addresses";</span>
+<span class="cstat-no" title="statement not covered" >import AddressAdded from "./pages/Addresses/AddressAdded";</span>
+<span class="cstat-no" title="statement not covered" >import OpenBankingProcessing from "./components/OpenBankingProcessing";</span>
+&nbsp;
+/* import RentalHistoryComplete from "./pages/RentalHistoryComplete"; */
+&nbsp;
+/* import EmploymentReferenceRequest from "./pages/EmploymentReference"; */
+<span class="cstat-no" title="statement not covered" >import PropertyReferenceRequest from "./pages/PropertyReference";</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >if (typeof global.self === "undefined") {</span>
+<span class="cstat-no" title="statement not covered" >  global.self = global;</span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >Dimensions.addEventListener("change", <span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >({window}) =&gt;</span></span></span></span>
+  store.dispatch({
+    type: SET_DIMENSIONS,
+    ...window,
+  }),
+);
+&nbsp;
+class App extends Component {
+  componentDidMount() {
+<span class="cstat-no" title="statement not covered" >    if (isNative) {</span>
+<span class="cstat-no" title="statement not covered" >      RNSplashScreen.hide();</span>
+    }
+  }
+&nbsp;
+  render() {
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      &lt;Provider store={store}&gt;
+        &lt;ThemeProvider theme={theme.selva}&gt;
+          &lt;SmartBackground&gt;
+            &lt;TopUtilBar /&gt;
+            &lt;ConnectedRouter history={history}&gt;
+              &lt;Switch&gt;
+                &lt;PrivateRoute exact path="/" component={Home} /&gt;
+                &lt;PrivateRoute exact path="/About" component={About} /&gt;
+                &lt;PrivateRoute exact path="/Contact" component={Contact} /&gt;
+                &lt;Route exact path="/login" component={AccountLogin} /&gt;
+                &lt;Route exact path="/crain" component={CrainPage} /&gt;
+                &lt;Route
+                  exact
+                  path="/auth-truelayer"
+                  component={TruelayerAuthPage}
+                /&gt;
+                &lt;Route exact path="/rent-passport" component={RentPassport} /&gt;
+                &lt;Route
+                  exact
+                  path="/forgotPassword"
+                  component={PasswordForgot}
+                /&gt;
+                &lt;Route exact path="/resetPassword" component={PasswordReset} /&gt;
+                &lt;Route
+                  exact
+                  path="/signup"
+                  render={<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >() =&gt; &lt;Redirect to="/signup/name" /&gt;}</span></span>
+                /&gt;
+                &lt;Route
+                  exact
+                  path="/signup/terms"
+                  component={TermsAndConditions}
+                /&gt;
+                &lt;Route
+                  exact
+                  path="/TermsAndConditions"
+                  component={TermsAndConditions}
+                /&gt;
+                &lt;Route
+                  exact
+                  path="/create-rent-passport"
+                  render={<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >() =&gt; &lt;Redirect to="/create-rent-passport/name" /&gt;}</span></span>
+                /&gt;
+                &lt;Route
+                  exact
+                  path="/tenant-reference-request"
+                  render={<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >() =&gt; (</span></span>
+                    &lt;Redirect to="/tenant-reference-request/payments" /&gt;
+                  )}
+                /&gt;
+                &lt;Route
+                  exact
+                  path="/where-you-have-lived"
+                  component={Addresses}
+                /&gt;
+&nbsp;
+                &lt;Route
+                  exact
+                  path="/request-property-reference"
+                  component={PropertyReferenceRequest}
+                /&gt;
+                &lt;Route
+                  exact
+                  path="/current-address-added"
+                  component={AddressAdded}
+                /&gt;
+                &lt;Route
+                  exact
+                  path="/generating-rent-passport"
+                  component={GeneratingRentPassport}
+                /&gt;
+                &lt;Route
+                  exact
+                  path="/dev-route"
+                  component={OpenBankingProcessing}
+                /&gt;
+                &lt;Route component={NotFound} /&gt;
+              &lt;/Switch&gt;
+            &lt;/ConnectedRouter&gt;
+            &lt;BottomMenu /&gt;
+          &lt;/SmartBackground&gt;
+        &lt;/ThemeProvider&gt;
+      &lt;/Provider&gt;
+    );
+  }
+}
+&nbsp;
+export default App;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Mar 28 2019 14:23:06 GMT+0700 (Indochina Time)
+</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>

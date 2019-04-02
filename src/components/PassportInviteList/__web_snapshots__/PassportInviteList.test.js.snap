@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`passport invite list snapshot test 1`] = `
+<Connect(WithTheme(EmailContainer))
+  email="test@email.com"
+  isPending={true}
+  name="test"
+  onClick={[Function]}
+  pendingText="pending"
+  theme={Object {}}
+/>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RentPassportList List matches snapshot 1`] = `
+<Styled(View)
+  theme={
+    Object {
+      "textColor": "#fff",
+    }
+  }
+>
+  <RentPassportSection
+    addPassportsToShare={[Function]}
+    data={
+      Array [
+        Object {
+          "id": 777,
+          "name": "Jonathan Beaumont",
+          "status": "Fully referenced",
+        },
+      ]
+    }
+    selectedPassport="shared"
+    theme={
+      Object {
+        "textColor": "#fff",
+      }
+    }
+    title="test"
+  />
+</Styled(View)>
+`;

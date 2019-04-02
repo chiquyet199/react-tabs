@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/components/RentPassportCollapseContent/RentPassportCollapseContent.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">src/components/RentPassportCollapseContent</a> RentPassportCollapseContent.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">88.89% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>32/36</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">67.74% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>21/31</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">70% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>7/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">88.89% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>32/36</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">38x</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">38x</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">38x</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">156x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">147x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from "react";
+import styled from "styled-components/native";
+import {isEmpty} from "underscore";
+import RentPassportTextField from "../RentPassportTextField";
+import NotificationPanel from "../NotificationPanel";
+import RentPassportHelpers from "../../utils/helpers/rentPassport";
+import {colors} from "../../constants/theme";
+import {SCORES, getScoreRanges} from "../../constants/credit-score";
+import {
+  arrayOf,
+  array,
+  func,
+  object,
+  oneOfType,
+  string,
+  oneOf,
+} from "prop-types";
+import RightToRentPreview from "../../components/RightToRentPreview";
+&nbsp;
+export const FlexContainer = styled.View`
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+`;
+&nbsp;
+export const ScaleContainer = styled(FlexContainer)`
+  justify-content: center;
+  padding-vertical: 15px;
+`;
+&nbsp;
+export const FlexItemContainer = styled(FlexContainer)`
+  border-bottom-color: ${<span class="fstat-no" title="function not covered" >({</span>noborder}) =&gt;
+<span class="cstat-no" title="statement not covered" >    noborder === "true" ? colors.none : colors.lightSteel}</span>;
+  border-bottom-width: 1px;
+  flex-grow: 2;
+  width: 100%;
+`;
+&nbsp;
+export const RentPassportCollapseContent = ({
+  status,
+  messageGroups,
+  multipleMessages,
+  errorTexts,
+  goTo,
+  showModal,
+  schema,
+  globaltheme,
+}) =&gt; {
+  const isCreditStatusPoor = properties =&gt; {
+    const [{creditScale}] = properties;
+    const scoreRange = getScoreRanges(SCORES.VERY_POOR);
+    const creditScaleLowerBound = scoreRange.from;
+    const creditScaleUpperBound = scoreRange.to;
+&nbsp;
+    return (
+      creditScale &amp;&amp;
+<span class="branch-1 cbranch-no" title="branch not covered" >      creditScale.value &gt; creditScaleLowerBound </span>&amp;&amp;
+<span class="branch-2 cbranch-no" title="branch not covered" >      creditScale.value &lt;= creditScaleUpperBound</span>
+    );
+  };
+&nbsp;
+  const parseMessages = (messagesToParse, creditWorthy) =&gt; {
+    const failedMessage = "creditScore.failed";
+    if (messagesToParse &amp;&amp; messagesToParse.length) {
+      const parsedMessages = messagesToParse.slice();
+      <span class="missing-if-branch" title="if path not taken" >I</span>if (!creditWorthy &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >parsedMessages.includes(failedMessage))</span> {
+<span class="cstat-no" title="statement not covered" >        parsedMessages.push(failedMessage);</span>
+      }
+&nbsp;
+      return parsedMessages;
+    }
+&nbsp;
+    return null;
+  };
+&nbsp;
+  if (!isEmpty(schema)) {
+    const actions = {goTo, showModal};
+    const isCreditWorthy = !isCreditStatusPoor(schema);
+    const componentStatus = isCreditWorthy ? status : <span class="branch-1 cbranch-no" title="branch not covered" >"RED";</span>
+    const notificationMessages = parseMessages(messageGroups, isCreditWorthy);
+&nbsp;
+    return (
+      &lt;FlexContainer&gt;
+        {notificationMessages &amp;&amp; notificationMessages.length
+          ? messageGroups.map(messageGroup =&gt; {
+              const messagesInGroup = Array.isArray(messageGroup)
+                ? <span class="branch-0 cbranch-no" title="branch not covered" >messageGroup</span>
+                : [messageGroup];
+&nbsp;
+              return messagesInGroup.map(message =&gt; (
+                &lt;NotificationPanel
+                  key={message}
+                  topmargin={5}
+                  bottommargin={5}
+                  content={RentPassportHelpers.renderContent(
+                    componentStatus,
+                    message,
+                    errorTexts,
+                    actions,
+                  )}
+                  type={
+                    RentPassportHelpers.getNotificationType(componentStatus)
+                      .type
+                  }
+                /&gt;
+              ));
+            })
+          : null}
+        {multipleMessages &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >multipleMessages.length</span>
+          ? <span class="branch-0 cbranch-no" title="branch not covered" >multipleMessages.map(<span class="fstat-no" title="function not covered" >me</span>ssage =&gt;</span>
+<span class="cstat-no" title="statement not covered" >              message.errors.map(<span class="fstat-no" title="function not covered" >er</span>ror =&gt; (</span>
+<span class="cstat-no" title="statement not covered" >                &lt;NotificationPanel</span>
+                  key={error}
+                  topmargin={5}
+                  bottommargin={5}
+                  content={RentPassportHelpers.renderContent(
+                    message.status,
+                    error,
+                    errorTexts,
+                    actions,
+                  )}
+                  type={
+                    RentPassportHelpers.getNotificationType(message.status).type
+                  }
+                /&gt;
+              )),
+            )
+          : null}
+        {Object.entries(schema).map(([key, property]) =&gt; {
+          return (
+            &lt;FlexItemContainer
+              key={key}
+              noborder={String(Number(key) === schema.length - 1)}
+            &gt;
+              {Object.entries(property).map(([objKey, obj]) =&gt; {
+                if (obj.uiComponent === "rightToRentComponent") {
+                  return (
+                    &lt;RightToRentPreview
+                      key={key}
+                      passport={obj}
+                      globaltheme={globaltheme}
+                    /&gt;
+                  );
+                }
+&nbsp;
+                return (
+                  &lt;RentPassportTextField
+                    key={`${objKey}`}
+                    title={obj.title}
+                    value={obj.value || ""}
+                    width={obj.width}
+                    fontSize={obj.fontSize}
+                    fontStyle={obj.fontStyle}
+                    align={obj.align}
+                    error={obj.error}
+                  /&gt;
+                );
+              })}
+            &lt;/FlexItemContainer&gt;
+          );
+        })}
+      &lt;/FlexContainer&gt;
+    );
+  }
+&nbsp;
+  return null;
+};
+&nbsp;
+RentPassportCollapseContent.propTypes = {
+  schema: oneOfType([array, object]).isRequired,
+  status: string,
+  messageGroups: arrayOf(oneOfType([string, object])),
+  multipleMessages: arrayOf(oneOfType([string, object])),
+  errorTexts: object,
+  goTo: func,
+  globaltheme: oneOf(["dark", "light"]).isRequired,
+  showModal: func,
+};
+&nbsp;
+export default RentPassportCollapseContent;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Mar 28 2019 14:23:50 GMT+0700 (Indochina Time)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs - page tests matches snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)
+    type="TabsContainer"
+  >
+    <Connect(WithTheme(Styled(TouchableOpacity)))
+      active={true}
+      key="WELCOME"
+      onPress={[Function]}
+    >
+      <Connect(WithTheme(Styled(Text)))
+        active={true}
+      >
+        WELCOME
+      </Connect(WithTheme(Styled(Text)))>
+    </Connect(WithTheme(Styled(TouchableOpacity)))>
+    <Connect(WithTheme(Styled(TouchableOpacity)))
+      active={false}
+      key="NATIVE"
+      onPress={[Function]}
+    >
+      <Connect(WithTheme(Styled(Text)))
+        active={false}
+      >
+        NATIVE
+      </Connect(WithTheme(Styled(Text)))>
+    </Connect(WithTheme(Styled(TouchableOpacity)))>
+  </Styled(View)>
+  <Styled(View)
+    type="ContentContainer"
+  >
+    <View
+      title="WELCOME"
+    >
+      <Text>
+        Page 1
+      </Text>
+    </View>
+  </Styled(View)>
+</Styled(View)>
+`;

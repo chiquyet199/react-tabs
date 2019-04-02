@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapse renders proper snapshot - web 1`] = `
+<AnimatedComponent
+  collapsed={true}
+  onToggle={[MockFunction]}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "height": AnimatedValue {
+        "_animation": null,
+        "_children": Array [],
+        "_listeners": Object {},
+        "_offset": 0,
+        "_value": undefined,
+      },
+      "marginTop": 10,
+      "overflow": "hidden",
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      focusedOpacity={0.7}
+      onPress={[Function]}
+    >
+      <CollapseContent
+        padding="10px 0"
+        type="header"
+      >
+        <Text>
+          Test text header
+        </Text>
+      </CollapseContent>
+    </TouchableOpacity>
+  </View>
+  <View
+    onLayout={[Function]}
+  >
+    <CollapseContent
+      padding="10px"
+      type="body"
+    >
+      <Text>
+        Test text body
+      </Text>
+    </CollapseContent>
+  </View>
+</AnimatedComponent>
+`;

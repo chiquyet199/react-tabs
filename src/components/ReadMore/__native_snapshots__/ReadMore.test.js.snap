@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Read More - page tests matches snapshot 1`] = `
+<ReadMore
+  numberOfLines={3}
+  renderRevealedFooter={[Function]}
+  renderTruncatedFooter={[Function]}
+>
+  <Styled(Text)
+    globaltheme="light"
+    theme={
+      Object {
+        "colors": Object {
+          "canopyGreen": "#5ab88e",
+          "canopySteel": "#6b7c93",
+          "white": "#ffffff",
+        },
+        "light": Object {
+          "baseColor": "#6b7c93",
+        },
+      }
+    }
+  >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda beatae consequatur culpa cumque delectus distinctio est, fugiat illum laborum molestiae nisi obcaecati optio provident quasi, suscipit totam ullam ut voluptas?
+  </Styled(Text)>
+</ReadMore>
+`;

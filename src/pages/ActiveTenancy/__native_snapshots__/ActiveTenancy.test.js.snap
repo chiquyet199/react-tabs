@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActiveTenancy page tests matches snapshot on ios 1`] = `
+<Fragment>
+  <Connect(WithTheme(Spinner))
+    visible={false}
+  />
+  <Connect(HeaderPropertySummary)
+    lease={
+      Object {
+        "branchId": "def-456",
+        "conditionsFreeText": "",
+        "documents": Array [
+          Object {
+            "createdAt": "2018-06-01T15:32:48",
+            "ref": "ghi-998",
+            "type": "POLICY_SCHEDULE",
+          },
+          Object {
+            "createdAt": "2018-06-01T15:48:48",
+            "ref": "ghi-712",
+            "type": "STATEMENT_OF_FACTS",
+          },
+        ],
+        "duration": Object {
+          "minimumMonths": 6,
+          "startDate": "2018-11-06T00:00:00",
+        },
+        "id": "abc-123",
+        "property": Object {
+          "address": Object {
+            "countryCode": "UK",
+            "line1": "29 Acacia Road",
+            "postCode": "BE1 1BE",
+            "state": "Aberdeenshire",
+            "town": "Beanotown",
+          },
+          "agencyId": "22",
+          "branchId": "44",
+          "createdBy": "Homogenous cohorts",
+          "depositAmount": 1000,
+          "depositFreeAvailable": true,
+          "id": "abc-123",
+          "landlord": Object {},
+          "presentation": Object {
+            "bathroomsCount": 1,
+            "bedroomsCount": 2,
+            "furnishedType": "PART_FURNISHED",
+            "hasOutsideSpace": true,
+            "hasParking": true,
+            "petsAllowed": false,
+            "propertyType": "HOUSE",
+            "smokingAllowed": false,
+          },
+          "propertyImages": Array [
+            Object {
+              "id": "def-456",
+              "isPrimary": false,
+              "url": "http://www.findyourcanopy.com/img123.jpeg",
+            },
+            Object {
+              "id": "def-457",
+              "isPrimary": true,
+              "url": "https://media.rightmove.co.uk/dir/152k/151109/61705537/151109_344038-1_IMG_19_0002_max_656x437.jpg",
+            },
+            Object {
+              "id": "def-458",
+              "isPrimary": false,
+              "url": "http://www.findyourcanopy.com/img125.jpeg",
+            },
+          ],
+          "rentAmount": 1234.99,
+          "rentFrequency": "WEEKLY",
+        },
+        "rentAmount": 1234,
+        "rentFrequency": "MONTHLY",
+        "renters": Array [
+          Object {
+            "depositOptions": Array [
+              Object {
+                "type": "DEPOSIT_FREE",
+              },
+            ],
+            "firstName": "Bill",
+            "lastName": "Oddy",
+            "userId": "ghi-789",
+          },
+          Object {
+            "depositOptions": Array [
+              Object {
+                "type": "DEPOSIT_FREE",
+              },
+            ],
+            "firstName": "Damon",
+            "lastName": "Albarn",
+            "userId": "ghi-987",
+          },
+        ],
+        "status": "ACTIVE",
+      }
+    }
+  />
+  <Connect(TenancyTerms)
+    lease={
+      Object {
+        "branchId": "def-456",
+        "conditionsFreeText": "",
+        "documents": Array [
+          Object {
+            "createdAt": "2018-06-01T15:32:48",
+            "ref": "ghi-998",
+            "type": "POLICY_SCHEDULE",
+          },
+          Object {
+            "createdAt": "2018-06-01T15:48:48",
+            "ref": "ghi-712",
+            "type": "STATEMENT_OF_FACTS",
+          },
+        ],
+        "duration": Object {
+          "minimumMonths": 6,
+          "startDate": "2018-11-06T00:00:00",
+        },
+        "id": "abc-123",
+        "property": Object {
+          "address": Object {
+            "countryCode": "UK",
+            "line1": "29 Acacia Road",
+            "postCode": "BE1 1BE",
+            "state": "Aberdeenshire",
+            "town": "Beanotown",
+          },
+          "agencyId": "22",
+          "branchId": "44",
+          "createdBy": "Homogenous cohorts",
+          "depositAmount": 1000,
+          "depositFreeAvailable": true,
+          "id": "abc-123",
+          "landlord": Object {},
+          "presentation": Object {
+            "bathroomsCount": 1,
+            "bedroomsCount": 2,
+            "furnishedType": "PART_FURNISHED",
+            "hasOutsideSpace": true,
+            "hasParking": true,
+            "petsAllowed": false,
+            "propertyType": "HOUSE",
+            "smokingAllowed": false,
+          },
+          "propertyImages": Array [
+            Object {
+              "id": "def-456",
+              "isPrimary": false,
+              "url": "http://www.findyourcanopy.com/img123.jpeg",
+            },
+            Object {
+              "id": "def-457",
+              "isPrimary": true,
+              "url": "https://media.rightmove.co.uk/dir/152k/151109/61705537/151109_344038-1_IMG_19_0002_max_656x437.jpg",
+            },
+            Object {
+              "id": "def-458",
+              "isPrimary": false,
+              "url": "http://www.findyourcanopy.com/img125.jpeg",
+            },
+          ],
+          "rentAmount": 1234.99,
+          "rentFrequency": "WEEKLY",
+        },
+        "rentAmount": 1234,
+        "rentFrequency": "MONTHLY",
+        "renters": Array [
+          Object {
+            "depositOptions": Array [
+              Object {
+                "type": "DEPOSIT_FREE",
+              },
+            ],
+            "firstName": "Bill",
+            "lastName": "Oddy",
+            "userId": "ghi-789",
+          },
+          Object {
+            "depositOptions": Array [
+              Object {
+                "type": "DEPOSIT_FREE",
+              },
+            ],
+            "firstName": "Damon",
+            "lastName": "Albarn",
+            "userId": "ghi-987",
+          },
+        ],
+        "status": "ACTIVE",
+      }
+    }
+  />
+  <Connect(DepositFree)
+    lease={
+      Object {
+        "branchId": "def-456",
+        "conditionsFreeText": "",
+        "documents": Array [
+          Object {
+            "createdAt": "2018-06-01T15:32:48",
+            "ref": "ghi-998",
+            "type": "POLICY_SCHEDULE",
+          },
+          Object {
+            "createdAt": "2018-06-01T15:48:48",
+            "ref": "ghi-712",
+            "type": "STATEMENT_OF_FACTS",
+          },
+        ],
+        "duration": Object {
+          "minimumMonths": 6,
+          "startDate": "2018-11-06T00:00:00",
+        },
+        "id": "abc-123",
+        "property": Object {
+          "address": Object {
+            "countryCode": "UK",
+            "line1": "29 Acacia Road",
+            "postCode": "BE1 1BE",
+            "state": "Aberdeenshire",
+            "town": "Beanotown",
+          },
+          "agencyId": "22",
+          "branchId": "44",
+          "createdBy": "Homogenous cohorts",
+          "depositAmount": 1000,
+          "depositFreeAvailable": true,
+          "id": "abc-123",
+          "landlord": Object {},
+          "presentation": Object {
+            "bathroomsCount": 1,
+            "bedroomsCount": 2,
+            "furnishedType": "PART_FURNISHED",
+            "hasOutsideSpace": true,
+            "hasParking": true,
+            "petsAllowed": false,
+            "propertyType": "HOUSE",
+            "smokingAllowed": false,
+          },
+          "propertyImages": Array [
+            Object {
+              "id": "def-456",
+              "isPrimary": false,
+              "url": "http://www.findyourcanopy.com/img123.jpeg",
+            },
+            Object {
+              "id": "def-457",
+              "isPrimary": true,
+              "url": "https://media.rightmove.co.uk/dir/152k/151109/61705537/151109_344038-1_IMG_19_0002_max_656x437.jpg",
+            },
+            Object {
+              "id": "def-458",
+              "isPrimary": false,
+              "url": "http://www.findyourcanopy.com/img125.jpeg",
+            },
+          ],
+          "rentAmount": 1234.99,
+          "rentFrequency": "WEEKLY",
+        },
+        "rentAmount": 1234,
+        "rentFrequency": "MONTHLY",
+        "renters": Array [
+          Object {
+            "depositOptions": Array [
+              Object {
+                "type": "DEPOSIT_FREE",
+              },
+            ],
+            "firstName": "Bill",
+            "lastName": "Oddy",
+            "userId": "ghi-789",
+          },
+          Object {
+            "depositOptions": Array [
+              Object {
+                "type": "DEPOSIT_FREE",
+              },
+            ],
+            "firstName": "Damon",
+            "lastName": "Albarn",
+            "userId": "ghi-987",
+          },
+        ],
+        "status": "ACTIVE",
+      }
+    }
+  />
+  <Connect(Housemates)
+    lease={
+      Object {
+        "branchId": "def-456",
+        "conditionsFreeText": "",
+        "documents": Array [
+          Object {
+            "createdAt": "2018-06-01T15:32:48",
+            "ref": "ghi-998",
+            "type": "POLICY_SCHEDULE",
+          },
+          Object {
+            "createdAt": "2018-06-01T15:48:48",
+            "ref": "ghi-712",
+            "type": "STATEMENT_OF_FACTS",
+          },
+        ],
+        "duration": Object {
+          "minimumMonths": 6,
+          "startDate": "2018-11-06T00:00:00",
+        },
+        "id": "abc-123",
+        "property": Object {
+          "address": Object {
+            "countryCode": "UK",
+            "line1": "29 Acacia Road",
+            "postCode": "BE1 1BE",
+            "state": "Aberdeenshire",
+            "town": "Beanotown",
+          },
+          "agencyId": "22",
+          "branchId": "44",
+          "createdBy": "Homogenous cohorts",
+          "depositAmount": 1000,
+          "depositFreeAvailable": true,
+          "id": "abc-123",
+          "landlord": Object {},
+          "presentation": Object {
+            "bathroomsCount": 1,
+            "bedroomsCount": 2,
+            "furnishedType": "PART_FURNISHED",
+            "hasOutsideSpace": true,
+            "hasParking": true,
+            "petsAllowed": false,
+            "propertyType": "HOUSE",
+            "smokingAllowed": false,
+          },
+          "propertyImages": Array [
+            Object {
+              "id": "def-456",
+              "isPrimary": false,
+              "url": "http://www.findyourcanopy.com/img123.jpeg",
+            },
+            Object {
+              "id": "def-457",
+              "isPrimary": true,
+              "url": "https://media.rightmove.co.uk/dir/152k/151109/61705537/151109_344038-1_IMG_19_0002_max_656x437.jpg",
+            },
+            Object {
+              "id": "def-458",
+              "isPrimary": false,
+              "url": "http://www.findyourcanopy.com/img125.jpeg",
+            },
+          ],
+          "rentAmount": 1234.99,
+          "rentFrequency": "WEEKLY",
+        },
+        "rentAmount": 1234,
+        "rentFrequency": "MONTHLY",
+        "renters": Array [
+          Object {
+            "depositOptions": Array [
+              Object {
+                "type": "DEPOSIT_FREE",
+              },
+            ],
+            "firstName": "Bill",
+            "lastName": "Oddy",
+            "userId": "ghi-789",
+          },
+          Object {
+            "depositOptions": Array [
+              Object {
+                "type": "DEPOSIT_FREE",
+              },
+            ],
+            "firstName": "Damon",
+            "lastName": "Albarn",
+            "userId": "ghi-987",
+          },
+        ],
+        "status": "ACTIVE",
+      }
+    }
+  />
+</Fragment>
+`;

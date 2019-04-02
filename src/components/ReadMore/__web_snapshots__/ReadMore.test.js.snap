@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Read More - page tests matches snapshot 1`] = `
+<Styled(Text)
+  globaltheme="light"
+  theme={
+    Object {
+      "colors": Object {
+        "canopyGreen": "#5ab88e",
+        "canopySteel": "#6b7c93",
+        "white": "#ffffff",
+      },
+      "light": Object {
+        "baseColor": "#6b7c93",
+      },
+    }
+  }
+>
+  <Truncate
+    ellipsis={
+      <Styled(Text)
+        globaltheme="light"
+        theme={
+          Object {
+            "colors": Object {
+              "canopyGreen": "#5ab88e",
+              "canopySteel": "#6b7c93",
+              "white": "#ffffff",
+            },
+            "light": Object {
+              "baseColor": "#6b7c93",
+            },
+          }
+        }
+      >
+        ...
+        <Styled(Styled(Text))
+          globaltheme="light"
+          onClick={[Function]}
+          theme={
+            Object {
+              "colors": Object {
+                "canopyGreen": "#5ab88e",
+                "canopySteel": "#6b7c93",
+                "white": "#ffffff",
+              },
+              "light": Object {
+                "baseColor": "#6b7c93",
+              },
+            }
+          }
+        >
+          MORE
+        </Styled(Styled(Text))>
+      </Styled(Text)>
+    }
+    lines={3}
+    onTruncate={[Function]}
+    trimWhitespace={false}
+    width={0}
+  >
+    <Styled(Text)
+      globaltheme="light"
+      theme={
+        Object {
+          "colors": Object {
+            "canopyGreen": "#5ab88e",
+            "canopySteel": "#6b7c93",
+            "white": "#ffffff",
+          },
+          "light": Object {
+            "baseColor": "#6b7c93",
+          },
+        }
+      }
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda beatae consequatur culpa cumque delectus distinctio est, fugiat illum laborum molestiae nisi obcaecati optio provident quasi, suscipit totam ullam ut voluptas?
+    </Styled(Text)>
+  </Truncate>
+</Styled(Text)>
+`;

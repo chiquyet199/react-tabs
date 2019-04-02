@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Confirmation Alert component Confirmation Alert snapshot test on - web 1`] = `
+<Modal
+  animationType="none"
+  appElement={null}
+  ariaHideApp={true}
+  onDismiss={[Function]}
+  onRequestClose={[Function]}
+  onShow={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <Styled(View)
+    onClick={[Function]}
+  >
+    <Connect(WithTheme(Styled(View))) />
+  </Styled(View)>
+</Modal>
+`;

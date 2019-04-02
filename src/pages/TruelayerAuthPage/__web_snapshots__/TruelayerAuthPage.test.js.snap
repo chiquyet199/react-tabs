@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing TruelayerAuth snapshot renders as expected 1`] = `
+<Connect(ResponsiveWrapper)>
+  <Connect(WithTheme(Styled(Text)))>
+    Truelayer Authorize
+  </Connect(WithTheme(Styled(Text)))>
+  <Styled(Styled(View))>
+    <Connect(WithTheme(Button))
+      middle="Authorize"
+      onClick={[MockFunction]}
+      type="primary"
+    />
+  </Styled(Styled(View))>
+</Connect(ResponsiveWrapper)>
+`;

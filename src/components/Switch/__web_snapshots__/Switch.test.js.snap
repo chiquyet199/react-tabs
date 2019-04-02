@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch renders proper snapshot - web 1`] = `
+<Switch
+  activeThumbColor="#ffffff"
+  activeTrackColor="#5dc471"
+  className="styled-switch active"
+  disabled={false}
+  onValueChange={[Function]}
+  style={Object {}}
+  thumbColor="#FAFAFA"
+  trackColor="#939393"
+  value={true}
+/>
+`;

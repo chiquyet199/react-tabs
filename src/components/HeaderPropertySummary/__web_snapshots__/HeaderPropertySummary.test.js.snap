@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderPropertySummary test HeaderPropertySummary snapshot test on - web 1`] = `
+<Connect(WithTheme(Styled(View)))>
+  <Connect(WithTheme(Styled(View)))>
+    <Styled(Image)
+      source={
+        Object {
+          "uri": "https://media.rightmove.co.uk/dir/152k/151109/61705537/151109_344038-1_IMG_19_0002_max_656x437.jpg",
+        }
+      }
+    />
+    <Styled(View)>
+      <Styled(View)>
+        <Styled(Connect(WithTheme(Styled(Text))))>
+          currency_symbol
+          1234
+        </Styled(Connect(WithTheme(Styled(Text))))>
+        <Styled(Connect(WithTheme(Styled(Text))))>
+          rentDueDate 07.01.2019
+        </Styled(Connect(WithTheme(Styled(Text))))>
+      </Styled(View)>
+      <Styled(Connect(WithTheme(Styled(Text))))>
+        29 Acacia Road, Beanotown, BE1 1BE
+      </Styled(Connect(WithTheme(Styled(Text))))>
+    </Styled(View)>
+    <Connect(WithTheme(Styled(TouchableOpacity)))
+      onPress={[Function]}
+    >
+      <Connect(WithTheme(Styled(Icon)))
+        name="arrow-right"
+        size={32}
+      />
+    </Connect(WithTheme(Styled(TouchableOpacity)))>
+  </Connect(WithTheme(Styled(View)))>
+</Connect(WithTheme(Styled(View)))>
+`;

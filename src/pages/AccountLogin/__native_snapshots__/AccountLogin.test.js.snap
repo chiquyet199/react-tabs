@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Page renders to correct snapshot 1`] = `
+<Fragment>
+  <Connect(Connect(FormPage))
+    extraButtons={
+      <React.Fragment>
+        <Connect(WithTheme(Button))
+          middle="Forgot Password"
+          onClick={[Function]}
+          type="secondary"
+        />
+        <Connect(WithTheme(Button))
+          middle="Home"
+          onClick={[Function]}
+          type="secondary"
+        />
+      </React.Fragment>
+    }
+    onSubmit={[Function]}
+    schema={
+      Object {
+        "buttonText": "Sign in",
+        "defaultErrorMessage": "A problem has occurred",
+        "header": "Sign in",
+        "next": "/path",
+        "properties": Object {
+          "email": Object {
+            "autoFocus": true,
+            "title": "Email",
+            "type": "string",
+            "validations": Array [
+              [Function],
+              [Function],
+            ],
+          },
+          "password": Object {
+            "title": "Password",
+            "type": "string",
+            "uiComponent": "password",
+            "validations": Array [
+              [Function],
+            ],
+          },
+        },
+        "title": "Sign in",
+        "type": "object",
+      }
+    }
+    submitOnEnter={true}
+  />
+</Fragment>
+`;

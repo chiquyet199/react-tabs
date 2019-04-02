@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification Panel component render properly - ios 1`] = `
+<Styled(Component)
+  bottommargin={5}
+  color="#f16651"
+  theme={
+    Object {
+      "colors": Object {
+        "alertRed": "#f16651",
+        "lightSteel": "#e3eaf2",
+        "orange": "#f1bf51",
+        "rentPassportErrorBg": "#fff5f5",
+        "rentPassportWarningBg": "#fffcf3",
+        "successGreen": "#5dc471",
+        "warning": "#fffcf3",
+        "white": "#ffffff",
+      },
+    }
+  }
+  topbar={false}
+  topmargin={5}
+>
+  <Styled(Component)>
+    <Icon
+      allowFontScaling={false}
+      color="#ff0000"
+      name="warning"
+      size={26}
+    />
+    <Styled(Text)
+      color="#ff0000"
+      theme={
+        Object {
+          "colors": Object {
+            "alertRed": "#f16651",
+            "lightSteel": "#e3eaf2",
+            "orange": "#f1bf51",
+            "rentPassportErrorBg": "#fff5f5",
+            "rentPassportWarningBg": "#fffcf3",
+            "successGreen": "#5dc471",
+            "warning": "#fffcf3",
+            "white": "#ffffff",
+          },
+        }
+      }
+    >
+      Notification text
+    </Styled(Text)>
+    <Icon
+      allowFontScaling={false}
+      color="#ffffff"
+      name="warning"
+      onClick={[Function]}
+      onPress={[Function]}
+      size={26}
+    />
+  </Styled(Component)>
+</Styled(Component)>
+`;

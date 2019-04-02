@@ -1,0 +1,1148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dialog /> Dialog - renders proper snapshot 1`] = `
+<Styled(Component)
+  theme={
+    Object {
+      "buttons": Object {
+        "confirmation_cancel": Object {
+          "background": "#ffffff",
+          "border": "rgba(0, 0, 0, 0)",
+          "fontSize": "18px",
+          "fontWeight": "bold",
+          "text": "#6b7c93",
+        },
+        "confirmation_danger": Object {
+          "background": "#ffffff",
+          "border": "rgba(0, 0, 0, 0)",
+          "fontSize": "18px",
+          "fontWeight": "bold",
+          "text": "#e26e59",
+        },
+        "confirmation_primary": Object {
+          "background": "#ffffff",
+          "border": "rgba(0, 0, 0, 0)",
+          "fontSize": "18px",
+          "fontWeight": "bold",
+          "text": "#5ab1b8",
+        },
+        "danger": Object {
+          "background": "#e26e59",
+          "border": "#e26e59",
+          "fontWeight": "bold",
+          "text": "#ffffff",
+        },
+        "danger_outlined": Object {
+          "background": "#ffffff",
+          "border": "#e26e59",
+          "fontWeight": "bold",
+          "text": "#e26e59",
+        },
+        "delete_button": Object {
+          "background": "#ffffff",
+          "border": "#b9c7d6",
+          "color": "#b9c7d6",
+          "fontWeight": "bold",
+        },
+        "facebook": Object {
+          "background": "#3b5998",
+          "border": "#3b5998",
+          "fontWeight": "bold",
+          "text": "#ffffff",
+        },
+        "primary": Object {
+          "background": "#5ab88e",
+          "border": "#5ab88e",
+          "fontWeight": "bold",
+          "text": "#ffffff",
+        },
+        "primary_outlined": Object {
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "#5ab88e",
+          "fontWeight": "bold",
+          "text": "#5ab88e",
+        },
+        "secondary": Object {
+          "background": "#ffffff",
+          "border": "#5ab88e",
+          "fontWeight": "bold",
+          "text": "#5ab88e",
+        },
+        "tabButton": Object {
+          "background": "#ffffff",
+          "border": "#e3eaf2",
+          "fontSize": "14px",
+          "fontWeight": "bold",
+          "text": "#6b7c93",
+        },
+        "tertiary": Object {
+          "background": "#ffffff",
+          "border": "#6e7c91",
+          "fontWeight": "bold",
+          "text": "#6e7c91",
+        },
+        "transparent": Object {
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgba(0, 0, 0, 0)",
+          "fontWeight": "bold",
+          "text": "#ffffff",
+        },
+        "transparent_gray": Object {
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgba(0, 0, 0, 0)",
+          "fontWeight": "bold",
+          "text": "#6b7c93",
+        },
+        "transparent_green": Object {
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgba(0, 0, 0, 0)",
+          "fontSize": "14px",
+          "fontWeight": "bold",
+          "text": "#5ab88e",
+        },
+        "transparent_white": Object {
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgba(0, 0, 0, 0)",
+          "fontWeight": "bold",
+          "text": "#ffffff",
+        },
+      },
+      "colors": Object {
+        "alertRed": "#f16651",
+        "black": "#000000",
+        "blueGray": "#455363",
+        "blueGreen": "#3c7087",
+        "canopyGreen": "#5ab88e",
+        "canopySoftSteel": "#8999ab",
+        "canopySoftSteelOverlay": "#f3f7fc",
+        "canopySteel": "#6b7c93",
+        "dark": "#010202",
+        "darkConcrete": "#455363",
+        "darkGreen": "#236a6d",
+        "darkOverlay": "rgba(0, 0, 0, 0.8)",
+        "darkTransparent": "rgba(0, 0, 0, 0.7)",
+        "darkestGreen": "#011e24",
+        "facebook": "#3b5998",
+        "green": "#398d7f",
+        "grey": "#6e7c91",
+        "hqBlue": "#5ab1b8",
+        "lightBackground": "rgba(255, 255, 255, 0.2)",
+        "lightBlue": "#42c8ce",
+        "lightGreen": "#58dfa3",
+        "lightSteel": "#e3eaf2",
+        "lightTeal": "#37b3ba",
+        "none": "rgba(0, 0, 0, 0)",
+        "orange": "#f1bf51",
+        "primary": "#5ab88e",
+        "red": "#e26e59",
+        "rentPassportErrorBg": "#fff5f5",
+        "rentPassportWarningBg": "#fffcf3",
+        "semiTransparent": "rgba(0, 0, 0, 0.12)",
+        "shadowColor": "rgba(107, 124, 147, 0.4)",
+        "steel": "#b9c7d6",
+        "successGreen": "#5dc471",
+        "veryLightSteel": "#f6f9fc",
+        "warning": "#fffcf3",
+        "white": "#ffffff",
+        "whiteTransparent": "rgba(255, 255, 255, 0.2)",
+      },
+      "dark": Object {
+        "accentColor": "#5ab88e",
+        "background": Array [
+          "#236a6d",
+          "#011e24",
+        ],
+        "baseColor": "#f6f9fc",
+        "dividerColor": "#e3eaf2",
+        "form": Object {
+          "accentColor": "#5ab88e",
+          "baseColor": "#ffffff",
+          "bounceButton": "transparent",
+        },
+        "switch": Object {
+          "accentColor": "#5dc471",
+          "baseColor": "#ffffff",
+        },
+        "tabs": Object {
+          "activeText": "#5ab88e",
+          "background": "#ffffff",
+          "borderBottom": "#5ab88e",
+          "inactiveText": "#6b7c93",
+          "indicator": "#5ab88e",
+          "label": "#5ab88e",
+        },
+        "textColor": "#f6f9fc",
+        "topbar": Object {
+          "background": "rgba(0, 0, 0, 0)",
+          "baseColor": "#ffffff",
+          "headerButtonColour": "transparent_white",
+          "progressBar": "#58dfa3",
+        },
+      },
+      "light": Object {
+        "accentColor": "#5ab88e",
+        "background": Array [
+          "#ffffff",
+          "#ffffff",
+        ],
+        "baseColor": "#6b7c93",
+        "dividerColor": "#e3eaf2",
+        "errorTextColor": "#f16651",
+        "form": Object {
+          "accentColor": "#5ab88e",
+          "baseColor": "#6b7c93",
+          "bounceButton": "transparent_green",
+        },
+        "switch": Object {
+          "accentColor": "#5dc471",
+          "baseColor": "#ffffff",
+        },
+        "tabs": Object {
+          "activeText": "#5ab88e",
+          "background": "#ffffff",
+          "borderBottom": "#5ab88e",
+          "inactiveText": "#6b7c93",
+          "indicator": "#5ab88e",
+          "label": "#5ab88e",
+        },
+        "textColor": "#6b7c93",
+        "topbar": Object {
+          "background": "#ffffff",
+          "baseColor": "#6b7c93",
+          "fontSize": 18,
+          "headerButtonColour": "transparent_green",
+          "progressBar": "#58dfa3",
+        },
+      },
+      "padding": Object {
+        "top": 20,
+      },
+    }
+  }
+>
+  <Styled(Connect(WithTheme(Styled(Text))))
+    globaltheme="light"
+    theme={
+      Object {
+        "buttons": Object {
+          "confirmation_cancel": Object {
+            "background": "#ffffff",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontSize": "18px",
+            "fontWeight": "bold",
+            "text": "#6b7c93",
+          },
+          "confirmation_danger": Object {
+            "background": "#ffffff",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontSize": "18px",
+            "fontWeight": "bold",
+            "text": "#e26e59",
+          },
+          "confirmation_primary": Object {
+            "background": "#ffffff",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontSize": "18px",
+            "fontWeight": "bold",
+            "text": "#5ab1b8",
+          },
+          "danger": Object {
+            "background": "#e26e59",
+            "border": "#e26e59",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+          "danger_outlined": Object {
+            "background": "#ffffff",
+            "border": "#e26e59",
+            "fontWeight": "bold",
+            "text": "#e26e59",
+          },
+          "delete_button": Object {
+            "background": "#ffffff",
+            "border": "#b9c7d6",
+            "color": "#b9c7d6",
+            "fontWeight": "bold",
+          },
+          "facebook": Object {
+            "background": "#3b5998",
+            "border": "#3b5998",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+          "primary": Object {
+            "background": "#5ab88e",
+            "border": "#5ab88e",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+          "primary_outlined": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "#5ab88e",
+            "fontWeight": "bold",
+            "text": "#5ab88e",
+          },
+          "secondary": Object {
+            "background": "#ffffff",
+            "border": "#5ab88e",
+            "fontWeight": "bold",
+            "text": "#5ab88e",
+          },
+          "tabButton": Object {
+            "background": "#ffffff",
+            "border": "#e3eaf2",
+            "fontSize": "14px",
+            "fontWeight": "bold",
+            "text": "#6b7c93",
+          },
+          "tertiary": Object {
+            "background": "#ffffff",
+            "border": "#6e7c91",
+            "fontWeight": "bold",
+            "text": "#6e7c91",
+          },
+          "transparent": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+          "transparent_gray": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontWeight": "bold",
+            "text": "#6b7c93",
+          },
+          "transparent_green": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontSize": "14px",
+            "fontWeight": "bold",
+            "text": "#5ab88e",
+          },
+          "transparent_white": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+        },
+        "colors": Object {
+          "alertRed": "#f16651",
+          "black": "#000000",
+          "blueGray": "#455363",
+          "blueGreen": "#3c7087",
+          "canopyGreen": "#5ab88e",
+          "canopySoftSteel": "#8999ab",
+          "canopySoftSteelOverlay": "#f3f7fc",
+          "canopySteel": "#6b7c93",
+          "dark": "#010202",
+          "darkConcrete": "#455363",
+          "darkGreen": "#236a6d",
+          "darkOverlay": "rgba(0, 0, 0, 0.8)",
+          "darkTransparent": "rgba(0, 0, 0, 0.7)",
+          "darkestGreen": "#011e24",
+          "facebook": "#3b5998",
+          "green": "#398d7f",
+          "grey": "#6e7c91",
+          "hqBlue": "#5ab1b8",
+          "lightBackground": "rgba(255, 255, 255, 0.2)",
+          "lightBlue": "#42c8ce",
+          "lightGreen": "#58dfa3",
+          "lightSteel": "#e3eaf2",
+          "lightTeal": "#37b3ba",
+          "none": "rgba(0, 0, 0, 0)",
+          "orange": "#f1bf51",
+          "primary": "#5ab88e",
+          "red": "#e26e59",
+          "rentPassportErrorBg": "#fff5f5",
+          "rentPassportWarningBg": "#fffcf3",
+          "semiTransparent": "rgba(0, 0, 0, 0.12)",
+          "shadowColor": "rgba(107, 124, 147, 0.4)",
+          "steel": "#b9c7d6",
+          "successGreen": "#5dc471",
+          "veryLightSteel": "#f6f9fc",
+          "warning": "#fffcf3",
+          "white": "#ffffff",
+          "whiteTransparent": "rgba(255, 255, 255, 0.2)",
+        },
+        "dark": Object {
+          "accentColor": "#5ab88e",
+          "background": Array [
+            "#236a6d",
+            "#011e24",
+          ],
+          "baseColor": "#f6f9fc",
+          "dividerColor": "#e3eaf2",
+          "form": Object {
+            "accentColor": "#5ab88e",
+            "baseColor": "#ffffff",
+            "bounceButton": "transparent",
+          },
+          "switch": Object {
+            "accentColor": "#5dc471",
+            "baseColor": "#ffffff",
+          },
+          "tabs": Object {
+            "activeText": "#5ab88e",
+            "background": "#ffffff",
+            "borderBottom": "#5ab88e",
+            "inactiveText": "#6b7c93",
+            "indicator": "#5ab88e",
+            "label": "#5ab88e",
+          },
+          "textColor": "#f6f9fc",
+          "topbar": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "baseColor": "#ffffff",
+            "headerButtonColour": "transparent_white",
+            "progressBar": "#58dfa3",
+          },
+        },
+        "light": Object {
+          "accentColor": "#5ab88e",
+          "background": Array [
+            "#ffffff",
+            "#ffffff",
+          ],
+          "baseColor": "#6b7c93",
+          "dividerColor": "#e3eaf2",
+          "errorTextColor": "#f16651",
+          "form": Object {
+            "accentColor": "#5ab88e",
+            "baseColor": "#6b7c93",
+            "bounceButton": "transparent_green",
+          },
+          "switch": Object {
+            "accentColor": "#5dc471",
+            "baseColor": "#ffffff",
+          },
+          "tabs": Object {
+            "activeText": "#5ab88e",
+            "background": "#ffffff",
+            "borderBottom": "#5ab88e",
+            "inactiveText": "#6b7c93",
+            "indicator": "#5ab88e",
+            "label": "#5ab88e",
+          },
+          "textColor": "#6b7c93",
+          "topbar": Object {
+            "background": "#ffffff",
+            "baseColor": "#6b7c93",
+            "fontSize": 18,
+            "headerButtonColour": "transparent_green",
+            "progressBar": "#58dfa3",
+          },
+        },
+        "padding": Object {
+          "top": 20,
+        },
+      }
+    }
+  >
+    Title
+  </Styled(Connect(WithTheme(Styled(Text))))>
+  <Styled(Connect(WithTheme(Styled(Text))))
+    globaltheme="light"
+    theme={
+      Object {
+        "buttons": Object {
+          "confirmation_cancel": Object {
+            "background": "#ffffff",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontSize": "18px",
+            "fontWeight": "bold",
+            "text": "#6b7c93",
+          },
+          "confirmation_danger": Object {
+            "background": "#ffffff",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontSize": "18px",
+            "fontWeight": "bold",
+            "text": "#e26e59",
+          },
+          "confirmation_primary": Object {
+            "background": "#ffffff",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontSize": "18px",
+            "fontWeight": "bold",
+            "text": "#5ab1b8",
+          },
+          "danger": Object {
+            "background": "#e26e59",
+            "border": "#e26e59",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+          "danger_outlined": Object {
+            "background": "#ffffff",
+            "border": "#e26e59",
+            "fontWeight": "bold",
+            "text": "#e26e59",
+          },
+          "delete_button": Object {
+            "background": "#ffffff",
+            "border": "#b9c7d6",
+            "color": "#b9c7d6",
+            "fontWeight": "bold",
+          },
+          "facebook": Object {
+            "background": "#3b5998",
+            "border": "#3b5998",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+          "primary": Object {
+            "background": "#5ab88e",
+            "border": "#5ab88e",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+          "primary_outlined": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "#5ab88e",
+            "fontWeight": "bold",
+            "text": "#5ab88e",
+          },
+          "secondary": Object {
+            "background": "#ffffff",
+            "border": "#5ab88e",
+            "fontWeight": "bold",
+            "text": "#5ab88e",
+          },
+          "tabButton": Object {
+            "background": "#ffffff",
+            "border": "#e3eaf2",
+            "fontSize": "14px",
+            "fontWeight": "bold",
+            "text": "#6b7c93",
+          },
+          "tertiary": Object {
+            "background": "#ffffff",
+            "border": "#6e7c91",
+            "fontWeight": "bold",
+            "text": "#6e7c91",
+          },
+          "transparent": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+          "transparent_gray": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontWeight": "bold",
+            "text": "#6b7c93",
+          },
+          "transparent_green": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontSize": "14px",
+            "fontWeight": "bold",
+            "text": "#5ab88e",
+          },
+          "transparent_white": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+        },
+        "colors": Object {
+          "alertRed": "#f16651",
+          "black": "#000000",
+          "blueGray": "#455363",
+          "blueGreen": "#3c7087",
+          "canopyGreen": "#5ab88e",
+          "canopySoftSteel": "#8999ab",
+          "canopySoftSteelOverlay": "#f3f7fc",
+          "canopySteel": "#6b7c93",
+          "dark": "#010202",
+          "darkConcrete": "#455363",
+          "darkGreen": "#236a6d",
+          "darkOverlay": "rgba(0, 0, 0, 0.8)",
+          "darkTransparent": "rgba(0, 0, 0, 0.7)",
+          "darkestGreen": "#011e24",
+          "facebook": "#3b5998",
+          "green": "#398d7f",
+          "grey": "#6e7c91",
+          "hqBlue": "#5ab1b8",
+          "lightBackground": "rgba(255, 255, 255, 0.2)",
+          "lightBlue": "#42c8ce",
+          "lightGreen": "#58dfa3",
+          "lightSteel": "#e3eaf2",
+          "lightTeal": "#37b3ba",
+          "none": "rgba(0, 0, 0, 0)",
+          "orange": "#f1bf51",
+          "primary": "#5ab88e",
+          "red": "#e26e59",
+          "rentPassportErrorBg": "#fff5f5",
+          "rentPassportWarningBg": "#fffcf3",
+          "semiTransparent": "rgba(0, 0, 0, 0.12)",
+          "shadowColor": "rgba(107, 124, 147, 0.4)",
+          "steel": "#b9c7d6",
+          "successGreen": "#5dc471",
+          "veryLightSteel": "#f6f9fc",
+          "warning": "#fffcf3",
+          "white": "#ffffff",
+          "whiteTransparent": "rgba(255, 255, 255, 0.2)",
+        },
+        "dark": Object {
+          "accentColor": "#5ab88e",
+          "background": Array [
+            "#236a6d",
+            "#011e24",
+          ],
+          "baseColor": "#f6f9fc",
+          "dividerColor": "#e3eaf2",
+          "form": Object {
+            "accentColor": "#5ab88e",
+            "baseColor": "#ffffff",
+            "bounceButton": "transparent",
+          },
+          "switch": Object {
+            "accentColor": "#5dc471",
+            "baseColor": "#ffffff",
+          },
+          "tabs": Object {
+            "activeText": "#5ab88e",
+            "background": "#ffffff",
+            "borderBottom": "#5ab88e",
+            "inactiveText": "#6b7c93",
+            "indicator": "#5ab88e",
+            "label": "#5ab88e",
+          },
+          "textColor": "#f6f9fc",
+          "topbar": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "baseColor": "#ffffff",
+            "headerButtonColour": "transparent_white",
+            "progressBar": "#58dfa3",
+          },
+        },
+        "light": Object {
+          "accentColor": "#5ab88e",
+          "background": Array [
+            "#ffffff",
+            "#ffffff",
+          ],
+          "baseColor": "#6b7c93",
+          "dividerColor": "#e3eaf2",
+          "errorTextColor": "#f16651",
+          "form": Object {
+            "accentColor": "#5ab88e",
+            "baseColor": "#6b7c93",
+            "bounceButton": "transparent_green",
+          },
+          "switch": Object {
+            "accentColor": "#5dc471",
+            "baseColor": "#ffffff",
+          },
+          "tabs": Object {
+            "activeText": "#5ab88e",
+            "background": "#ffffff",
+            "borderBottom": "#5ab88e",
+            "inactiveText": "#6b7c93",
+            "indicator": "#5ab88e",
+            "label": "#5ab88e",
+          },
+          "textColor": "#6b7c93",
+          "topbar": Object {
+            "background": "#ffffff",
+            "baseColor": "#6b7c93",
+            "fontSize": 18,
+            "headerButtonColour": "transparent_green",
+            "progressBar": "#58dfa3",
+          },
+        },
+        "padding": Object {
+          "top": 20,
+        },
+      }
+    }
+  >
+    paragraph
+  </Styled(Connect(WithTheme(Styled(Text))))>
+  <Connect(ResponsiveWrapper)>
+    <Connect(WithTheme(Button))
+      middle="cancelButtonText"
+      onClick={[MockFunction]}
+      type="secondary"
+    />
+    <Connect(WithTheme(Button))
+      middle="confirmButtonText"
+      onClick={[MockFunction]}
+      type="primary"
+    />
+  </Connect(ResponsiveWrapper)>
+</Styled(Component)>
+`;
+
+exports[`<SimpleDialog /> SimpleDialog - renders proper snapshot 1`] = `
+<Component
+  animationType="fade"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  transparent={true}
+  visible={true}
+>
+  <Styled(Component)
+    theme={
+      Object {
+        "buttons": Object {
+          "confirmation_cancel": Object {
+            "background": "#ffffff",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontSize": "18px",
+            "fontWeight": "bold",
+            "text": "#6b7c93",
+          },
+          "confirmation_danger": Object {
+            "background": "#ffffff",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontSize": "18px",
+            "fontWeight": "bold",
+            "text": "#e26e59",
+          },
+          "confirmation_primary": Object {
+            "background": "#ffffff",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontSize": "18px",
+            "fontWeight": "bold",
+            "text": "#5ab1b8",
+          },
+          "danger": Object {
+            "background": "#e26e59",
+            "border": "#e26e59",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+          "danger_outlined": Object {
+            "background": "#ffffff",
+            "border": "#e26e59",
+            "fontWeight": "bold",
+            "text": "#e26e59",
+          },
+          "delete_button": Object {
+            "background": "#ffffff",
+            "border": "#b9c7d6",
+            "color": "#b9c7d6",
+            "fontWeight": "bold",
+          },
+          "facebook": Object {
+            "background": "#3b5998",
+            "border": "#3b5998",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+          "primary": Object {
+            "background": "#5ab88e",
+            "border": "#5ab88e",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+          "primary_outlined": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "#5ab88e",
+            "fontWeight": "bold",
+            "text": "#5ab88e",
+          },
+          "secondary": Object {
+            "background": "#ffffff",
+            "border": "#5ab88e",
+            "fontWeight": "bold",
+            "text": "#5ab88e",
+          },
+          "tabButton": Object {
+            "background": "#ffffff",
+            "border": "#e3eaf2",
+            "fontSize": "14px",
+            "fontWeight": "bold",
+            "text": "#6b7c93",
+          },
+          "tertiary": Object {
+            "background": "#ffffff",
+            "border": "#6e7c91",
+            "fontWeight": "bold",
+            "text": "#6e7c91",
+          },
+          "transparent": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+          "transparent_gray": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontWeight": "bold",
+            "text": "#6b7c93",
+          },
+          "transparent_green": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontSize": "14px",
+            "fontWeight": "bold",
+            "text": "#5ab88e",
+          },
+          "transparent_white": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "border": "rgba(0, 0, 0, 0)",
+            "fontWeight": "bold",
+            "text": "#ffffff",
+          },
+        },
+        "colors": Object {
+          "alertRed": "#f16651",
+          "black": "#000000",
+          "blueGray": "#455363",
+          "blueGreen": "#3c7087",
+          "canopyGreen": "#5ab88e",
+          "canopySoftSteel": "#8999ab",
+          "canopySoftSteelOverlay": "#f3f7fc",
+          "canopySteel": "#6b7c93",
+          "dark": "#010202",
+          "darkConcrete": "#455363",
+          "darkGreen": "#236a6d",
+          "darkOverlay": "rgba(0, 0, 0, 0.8)",
+          "darkTransparent": "rgba(0, 0, 0, 0.7)",
+          "darkestGreen": "#011e24",
+          "facebook": "#3b5998",
+          "green": "#398d7f",
+          "grey": "#6e7c91",
+          "hqBlue": "#5ab1b8",
+          "lightBackground": "rgba(255, 255, 255, 0.2)",
+          "lightBlue": "#42c8ce",
+          "lightGreen": "#58dfa3",
+          "lightSteel": "#e3eaf2",
+          "lightTeal": "#37b3ba",
+          "none": "rgba(0, 0, 0, 0)",
+          "orange": "#f1bf51",
+          "primary": "#5ab88e",
+          "red": "#e26e59",
+          "rentPassportErrorBg": "#fff5f5",
+          "rentPassportWarningBg": "#fffcf3",
+          "semiTransparent": "rgba(0, 0, 0, 0.12)",
+          "shadowColor": "rgba(107, 124, 147, 0.4)",
+          "steel": "#b9c7d6",
+          "successGreen": "#5dc471",
+          "veryLightSteel": "#f6f9fc",
+          "warning": "#fffcf3",
+          "white": "#ffffff",
+          "whiteTransparent": "rgba(255, 255, 255, 0.2)",
+        },
+        "dark": Object {
+          "accentColor": "#5ab88e",
+          "background": Array [
+            "#236a6d",
+            "#011e24",
+          ],
+          "baseColor": "#f6f9fc",
+          "dividerColor": "#e3eaf2",
+          "form": Object {
+            "accentColor": "#5ab88e",
+            "baseColor": "#ffffff",
+            "bounceButton": "transparent",
+          },
+          "switch": Object {
+            "accentColor": "#5dc471",
+            "baseColor": "#ffffff",
+          },
+          "tabs": Object {
+            "activeText": "#5ab88e",
+            "background": "#ffffff",
+            "borderBottom": "#5ab88e",
+            "inactiveText": "#6b7c93",
+            "indicator": "#5ab88e",
+            "label": "#5ab88e",
+          },
+          "textColor": "#f6f9fc",
+          "topbar": Object {
+            "background": "rgba(0, 0, 0, 0)",
+            "baseColor": "#ffffff",
+            "headerButtonColour": "transparent_white",
+            "progressBar": "#58dfa3",
+          },
+        },
+        "light": Object {
+          "accentColor": "#5ab88e",
+          "background": Array [
+            "#ffffff",
+            "#ffffff",
+          ],
+          "baseColor": "#6b7c93",
+          "dividerColor": "#e3eaf2",
+          "errorTextColor": "#f16651",
+          "form": Object {
+            "accentColor": "#5ab88e",
+            "baseColor": "#6b7c93",
+            "bounceButton": "transparent_green",
+          },
+          "switch": Object {
+            "accentColor": "#5dc471",
+            "baseColor": "#ffffff",
+          },
+          "tabs": Object {
+            "activeText": "#5ab88e",
+            "background": "#ffffff",
+            "borderBottom": "#5ab88e",
+            "inactiveText": "#6b7c93",
+            "indicator": "#5ab88e",
+            "label": "#5ab88e",
+          },
+          "textColor": "#6b7c93",
+          "topbar": Object {
+            "background": "#ffffff",
+            "baseColor": "#6b7c93",
+            "fontSize": 18,
+            "headerButtonColour": "transparent_green",
+            "progressBar": "#58dfa3",
+          },
+        },
+        "padding": Object {
+          "top": 20,
+        },
+      }
+    }
+  >
+    <OnClickOutside(Dialog)
+      cancelButtonText="cancelButtonText"
+      confirmButtonText="confirmButtonText"
+      eventTypes={
+        Array [
+          "mousedown",
+          "touchstart",
+        ]
+      }
+      excludeScrollbar={false}
+      globaltheme="light"
+      isOpen={true}
+      onDialogCancel={[MockFunction]}
+      onDialogConfirm={[MockFunction]}
+      outsideClickIgnoreClass="ignore-react-onclickoutside"
+      paragraph="paragraph"
+      preventDefault={false}
+      stopPropagation={false}
+      theme={
+        Object {
+          "buttons": Object {
+            "confirmation_cancel": Object {
+              "background": "#ffffff",
+              "border": "rgba(0, 0, 0, 0)",
+              "fontSize": "18px",
+              "fontWeight": "bold",
+              "text": "#6b7c93",
+            },
+            "confirmation_danger": Object {
+              "background": "#ffffff",
+              "border": "rgba(0, 0, 0, 0)",
+              "fontSize": "18px",
+              "fontWeight": "bold",
+              "text": "#e26e59",
+            },
+            "confirmation_primary": Object {
+              "background": "#ffffff",
+              "border": "rgba(0, 0, 0, 0)",
+              "fontSize": "18px",
+              "fontWeight": "bold",
+              "text": "#5ab1b8",
+            },
+            "danger": Object {
+              "background": "#e26e59",
+              "border": "#e26e59",
+              "fontWeight": "bold",
+              "text": "#ffffff",
+            },
+            "danger_outlined": Object {
+              "background": "#ffffff",
+              "border": "#e26e59",
+              "fontWeight": "bold",
+              "text": "#e26e59",
+            },
+            "delete_button": Object {
+              "background": "#ffffff",
+              "border": "#b9c7d6",
+              "color": "#b9c7d6",
+              "fontWeight": "bold",
+            },
+            "facebook": Object {
+              "background": "#3b5998",
+              "border": "#3b5998",
+              "fontWeight": "bold",
+              "text": "#ffffff",
+            },
+            "primary": Object {
+              "background": "#5ab88e",
+              "border": "#5ab88e",
+              "fontWeight": "bold",
+              "text": "#ffffff",
+            },
+            "primary_outlined": Object {
+              "background": "rgba(0, 0, 0, 0)",
+              "border": "#5ab88e",
+              "fontWeight": "bold",
+              "text": "#5ab88e",
+            },
+            "secondary": Object {
+              "background": "#ffffff",
+              "border": "#5ab88e",
+              "fontWeight": "bold",
+              "text": "#5ab88e",
+            },
+            "tabButton": Object {
+              "background": "#ffffff",
+              "border": "#e3eaf2",
+              "fontSize": "14px",
+              "fontWeight": "bold",
+              "text": "#6b7c93",
+            },
+            "tertiary": Object {
+              "background": "#ffffff",
+              "border": "#6e7c91",
+              "fontWeight": "bold",
+              "text": "#6e7c91",
+            },
+            "transparent": Object {
+              "background": "rgba(0, 0, 0, 0)",
+              "border": "rgba(0, 0, 0, 0)",
+              "fontWeight": "bold",
+              "text": "#ffffff",
+            },
+            "transparent_gray": Object {
+              "background": "rgba(0, 0, 0, 0)",
+              "border": "rgba(0, 0, 0, 0)",
+              "fontWeight": "bold",
+              "text": "#6b7c93",
+            },
+            "transparent_green": Object {
+              "background": "rgba(0, 0, 0, 0)",
+              "border": "rgba(0, 0, 0, 0)",
+              "fontSize": "14px",
+              "fontWeight": "bold",
+              "text": "#5ab88e",
+            },
+            "transparent_white": Object {
+              "background": "rgba(0, 0, 0, 0)",
+              "border": "rgba(0, 0, 0, 0)",
+              "fontWeight": "bold",
+              "text": "#ffffff",
+            },
+          },
+          "colors": Object {
+            "alertRed": "#f16651",
+            "black": "#000000",
+            "blueGray": "#455363",
+            "blueGreen": "#3c7087",
+            "canopyGreen": "#5ab88e",
+            "canopySoftSteel": "#8999ab",
+            "canopySoftSteelOverlay": "#f3f7fc",
+            "canopySteel": "#6b7c93",
+            "dark": "#010202",
+            "darkConcrete": "#455363",
+            "darkGreen": "#236a6d",
+            "darkOverlay": "rgba(0, 0, 0, 0.8)",
+            "darkTransparent": "rgba(0, 0, 0, 0.7)",
+            "darkestGreen": "#011e24",
+            "facebook": "#3b5998",
+            "green": "#398d7f",
+            "grey": "#6e7c91",
+            "hqBlue": "#5ab1b8",
+            "lightBackground": "rgba(255, 255, 255, 0.2)",
+            "lightBlue": "#42c8ce",
+            "lightGreen": "#58dfa3",
+            "lightSteel": "#e3eaf2",
+            "lightTeal": "#37b3ba",
+            "none": "rgba(0, 0, 0, 0)",
+            "orange": "#f1bf51",
+            "primary": "#5ab88e",
+            "red": "#e26e59",
+            "rentPassportErrorBg": "#fff5f5",
+            "rentPassportWarningBg": "#fffcf3",
+            "semiTransparent": "rgba(0, 0, 0, 0.12)",
+            "shadowColor": "rgba(107, 124, 147, 0.4)",
+            "steel": "#b9c7d6",
+            "successGreen": "#5dc471",
+            "veryLightSteel": "#f6f9fc",
+            "warning": "#fffcf3",
+            "white": "#ffffff",
+            "whiteTransparent": "rgba(255, 255, 255, 0.2)",
+          },
+          "dark": Object {
+            "accentColor": "#5ab88e",
+            "background": Array [
+              "#236a6d",
+              "#011e24",
+            ],
+            "baseColor": "#f6f9fc",
+            "dividerColor": "#e3eaf2",
+            "form": Object {
+              "accentColor": "#5ab88e",
+              "baseColor": "#ffffff",
+              "bounceButton": "transparent",
+            },
+            "switch": Object {
+              "accentColor": "#5dc471",
+              "baseColor": "#ffffff",
+            },
+            "tabs": Object {
+              "activeText": "#5ab88e",
+              "background": "#ffffff",
+              "borderBottom": "#5ab88e",
+              "inactiveText": "#6b7c93",
+              "indicator": "#5ab88e",
+              "label": "#5ab88e",
+            },
+            "textColor": "#f6f9fc",
+            "topbar": Object {
+              "background": "rgba(0, 0, 0, 0)",
+              "baseColor": "#ffffff",
+              "headerButtonColour": "transparent_white",
+              "progressBar": "#58dfa3",
+            },
+          },
+          "light": Object {
+            "accentColor": "#5ab88e",
+            "background": Array [
+              "#ffffff",
+              "#ffffff",
+            ],
+            "baseColor": "#6b7c93",
+            "dividerColor": "#e3eaf2",
+            "errorTextColor": "#f16651",
+            "form": Object {
+              "accentColor": "#5ab88e",
+              "baseColor": "#6b7c93",
+              "bounceButton": "transparent_green",
+            },
+            "switch": Object {
+              "accentColor": "#5dc471",
+              "baseColor": "#ffffff",
+            },
+            "tabs": Object {
+              "activeText": "#5ab88e",
+              "background": "#ffffff",
+              "borderBottom": "#5ab88e",
+              "inactiveText": "#6b7c93",
+              "indicator": "#5ab88e",
+              "label": "#5ab88e",
+            },
+            "textColor": "#6b7c93",
+            "topbar": Object {
+              "background": "#ffffff",
+              "baseColor": "#6b7c93",
+              "fontSize": 18,
+              "headerButtonColour": "transparent_green",
+              "progressBar": "#58dfa3",
+            },
+          },
+          "padding": Object {
+            "top": 20,
+          },
+        }
+      }
+      title="Title"
+    />
+  </Styled(Component)>
+</Component>
+`;
